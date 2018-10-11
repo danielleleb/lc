@@ -1,0 +1,23 @@
+.landing {
+    // transform: translateY(50%);
+    // top: 50vh;
+    width: 50vw;
+    height: 80vh;
+    border: 1px solid black;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // &__title {
+    //     text-align: center;
+    //     margin: 0;
+    // }
+    // &__tagline {
+    //     margin: 0;
+
+    // }
+    &__text {
+        margin: 0;
+        font-size: 40px;
+    }
+}

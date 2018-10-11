@@ -1,0 +1,33 @@
+.footer {
+    height: 10vh;
+    border: 1px solid black;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 5px;
+    position: absolute;
+    bottom: 0;
+    line-height: 10vh;
+    
+    &__icons {
+        display: inline;
+        // line-height: 10vh;
+        a {
+            line-height: 10vh;
+            margin: 0 10px;
+        }
+        svg {
+            height: 30px;
+            width: 30px !important;
+            line-height: 10vh;
+            vertical-align: middle;
+        }
+    }
+    &__copyright {
+        display: inline-block;
+        line-height: 0;
+        // height: 10vh;
+        // padding: 0 10px;
+        vertical-align: middle;
+    }
+}
