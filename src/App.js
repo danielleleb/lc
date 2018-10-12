@@ -22,7 +22,7 @@ class App extends Component {
           <TransitionGroup>
             <CSSTransition
             key={location.key}
-            timeout={1000}
+            timeout={2000}
             classNames="fade">
               <Switch location={location}>
                 <Route path="/" component={Home} exact />

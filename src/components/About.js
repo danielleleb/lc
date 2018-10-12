@@ -7,10 +7,12 @@ import Landing from './Landing';
 class About extends Component {
   render() {
     return (
-        <Fragment>
-            <p>about</p>
-            <Footer/>
-        </Fragment>
+        <div>
+            <div className="background about"></div>
+            <div className="container">
+                <p>about</p>
+            </div>
+        </div>
     );
   }
 }

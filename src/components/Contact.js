@@ -7,9 +7,12 @@ import Landing from './Landing';
 class Contact extends Component {
   render() {
     return (
-            <div className="contact__container">
+        <div className=" contact">
+            <div className="background"></div>
+            <div className="container">
             contact
-            </div>  
+            </div>
+        </div>
     );
   }
 }

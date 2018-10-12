@@ -3,6 +3,10 @@
     padding: 20px 10px 10px 10px;
     display: flex;
     justify-content: space-between;
+    z-index: 10;
+    position: relative;
+    top: 0;
+    //background-color: rgba(196, 187, 175, 0.6);
     &__item {
         padding: 0 10px;
         display: inline;
@@ -10,11 +14,21 @@
     &__link {
         text-decoration: none;
     }
+
+  a {
+    color: #4A001F;
+
+  }
+
+  &__left {
+    a {
+      color: rgba(196, 187, 175, 0.6);
+    }
+  }
 }
 html {
     box-sizing: border-box;
   }
   *, *:before, *:after {
     box-sizing: inherit;
-    color: rgb(80, 32, 48);
   }

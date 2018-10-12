@@ -1,70 +1,96 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
-
 .fade-appear {
-
+  //opacity: 0;
 }
 .fade-appear-active {
-  // transform: translateX(0);
-  // max-width: 0px;
-  // transition: width 250ms linear;
+  //opacity: 0;
 }
 
 .fade-enter {
-  // opacity: 0;
-  // max-width: 0;
-  // width: 0;
-  transform: translateX(-100%);
-  // z-index: 1;
-}
 
+  .background {
+    opacity: 0;
+  }
+}
 .fade-enter-active {
-  // opacity: 1;
-  // max-width: 200px;
-  width: 200px;
-  max-width: none;
-  transform: translateX(0%);
-  transition: all 1s linear;
 }
 
-.fade-exit {
-  // z-index: -1;
-  // top: 0;
-  margin-top: 0;
-  // position: absolute;
-  // position: relative;
-  // transform: translateX(100%);
-  // transition: transfrom 250ms ease-out;
+//@keyframes slide-out {
+//  0% {
+//    transform: rotate(10deg);
+//    opacity: 1;
+//  }
+//  20% {
+//    transform: rotate(-20deg);
+//    z-index: 5;
+//  }
+//  45% {
+//    transform: rotate(-20deg) scaleX(6);
+//    z-index:5;
+//    opacity: 1;
+//  }
+//  59% {
+//    opacity: 1;
+//  }
+//  60% {
+//    //opacity: 0;
+//    z-index: 5;
+//    transform: translateX(-300px);
+//    opacity: 1;
+//
+//  }
+//  61% {
+//    //opacity: 0;
+//  }
+//
+//}
+
+@keyframes slide-in {
+  0% {
+    transform: rotate(10deg);
+    //opacity: 1;
+    z-index: 5;
+    //opacity: 0;
+  }
+  20% {
+    //opacity: 0;
+    transform: rotate(-20deg) translateX(-530px);
+    //z-index: 5;
+  }
+  45% {
+    //opacity: 1;
+    transform: rotate(-20deg) scaleX(6);
+    z-index:5;
+  }
+  59% {
+    //opacity: 0;
+  }
+  60% {
+    //opacity: 0;
+    transform: translateX(-530px);
+  }
+  90% {
+  }
+  100% {
+    transform: rotate(10deg) scaleX(1);
+    opacity: 1;
+  }
 }
 
 .fade-exit-active {
-  margin-top: 0;
-  transform: translateX(100%);
-  transition: all 1s linear;
+  //opacity: 0;
+  .background {
+    animation: slide-in 2s;
+  }
+}
+
+.background {
+  background-color: #2E0219;
+  height: 200vh;
+  top: -150px;
+  left: -160px;
+  width: 650px;
+  position: absolute;
+  z-index: -5;
+  transform: rotate(10deg);
+  //clip-path: polygon(0 0, 100% 0, 55% 100%, 0% 100%);
 }
