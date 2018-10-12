@@ -1,63 +1,122 @@
 .fade-appear {
   //opacity: 0;
+  //display: none;
 }
 .fade-appear-active {
   //opacity: 0;
+  //display: none;
+  //visibility: hidden;
 }
 
 .fade-enter {
-
+  //.container {
+  //}
+  //display: none;
+  //animation: slide-in 2s;
   .background {
     opacity: 0;
   }
 }
 .fade-enter-active {
+  //display: none;
+  .container {
+
+  animation: entering-container-display 2s;
+  }
+
 }
 
-//@keyframes slide-out {
-//  0% {
-//    transform: rotate(10deg);
-//    opacity: 1;
-//  }
-//  20% {
-//    transform: rotate(-20deg);
-//    z-index: 5;
-//  }
-//  45% {
-//    transform: rotate(-20deg) scaleX(6);
-//    z-index:5;
-//    opacity: 1;
-//  }
-//  59% {
-//    opacity: 1;
-//  }
-//  60% {
-//    //opacity: 0;
-//    z-index: 5;
-//    transform: translateX(-300px);
-//    opacity: 1;
-//
-//  }
-//  61% {
-//    //opacity: 0;
-//  }
-//
-//}
+@keyframes background-slide-out {
+  0% {
+    opacity: 1;
+    transform: rotate(10deg);
+    //display: none;
+  }
+  20% {
+    transform: rotate(-20deg) translateX(-530px);
+    z-index: 5;
+    //visibility: 0;
+    //display: none;
+  }
+  45% {
+    transform: rotate(-20deg) scaleX(6);
+    z-index:5;
+    //opacity: 0;
+    //visibility: hidden;
+  }
+  59% {
+    opacity: 1;
+  }
+  60% {
+    //opacity: 0;
+    z-index: 5;
+    transform: translateX(-530px);
+    opacity: 1;
+
+  }
+  61% {
+    //opacity: 0;
+  }
+
+}
+
+@keyframes entering-container-display {
+  0% {
+    opacity: 0;
+    max-height: 0;
+    //display: none;
+  }
+  44% {
+    max-height: 0;
+    opacity: 0;
+  }
+  45% {
+    opacity: 1;
+    max-height: none;
+    //height: auto;
+    //display: block;
+    z-index: -1;
+  }
+}
+
+@keyframes exiting-container-hide {
+  0% {
+    opacity: 1;
+    //height: auto;
+    //display: none;
+  }
+  43% {
+    //height: auto;
+    opacity: 1;
+  }
+  44% {
+    opacity: 0;
+    //height: 0;
+    //display: block;
+    z-index: -1;
+  }
+}
 
 @keyframes slide-in {
   0% {
-    transform: rotate(10deg);
+    //transform: rotate(10deg);
     //opacity: 1;
-    z-index: 5;
+    //z-index: 5;
+    display: none;
     //opacity: 0;
   }
   20% {
     //opacity: 0;
+    //display: block;
+
     transform: rotate(-20deg) translateX(-530px);
     //z-index: 5;
   }
+  44% {
+    opacity: 0;
+  }
   45% {
-    //opacity: 1;
+    opacity: 1;
     transform: rotate(-20deg) scaleX(6);
     z-index:5;
   }
@@ -78,8 +137,14 @@
 
 .fade-exit-active {
   //opacity: 0;
+  .container {
+    transition-delay: 1s;
+    visibility: hidden;
+    //display: none;
+    animation: exiting-container-hide 2s
+  }
   .background {
-    animation: slide-in 2s;
+    animation: background-slide-out 2s;
   }
 }
 

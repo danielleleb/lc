@@ -8,9 +8,12 @@ class About extends Component {
   render() {
     return (
         <div>
-            <div className="background about"></div>
+            <div className="background"></div>
             <div className="container">
-                <p>about</p>
+                <div className="text">
+                    <p>about me about me about meee</p>
+
+                </div>
             </div>
         </div>
     );
