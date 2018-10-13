@@ -1,0 +1,115 @@
+.header {
+    width: 100%;
+    padding: 20px 10px 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    //z-index:10;
+    position: absolute;
+    top: 0;
+    //background-color: rgba(196, 187, 175, 0.6);
+    &__item {
+        padding: 0 10px;
+      display: inline-block;
+        //display: inline;
+      position: relative;
+      width: auto;
+      //z-index: 10;
+
+      &:hover {
+        color: #2E0219;
+        .header {
+          &__half {
+            //height: 200px;
+            height: 20px;
+            transform: rotate(0deg) scale(1.3) translateY(-7px);
+            background-color: rgba(196, 187, 175, 0.6);
+            &--one {
+
+            }
+          }
+        }
+      }
+    }
+    &__link {
+        text-decoration: none;
+      //position: relative;
+      //z-index: 20;
+    }
+  &__half {
+    width: 50%;
+    height: 100%;
+    transition: all .3s ease;
+
+    display: inline-block;
+    &--one {
+      background-color: #A7C4C2;
+      transform: rotate(-12deg);
+
+    }
+    &--two {
+      background-color: #AACAB0;
+      transform: rotate(-9deg);
+
+    }
+  }
+  &__hover {
+    z-index: -1;
+    height: 15px;
+    width: 90%;
+    margin: 0 auto;
+    opacity: .6;
+    //background-color: red;
+    display: flex;
+    //align-items: center;
+    //opacity: .8;
+    position: absolute;
+    //displasy: flex;
+    bottom:-6px;
+    //top: 0;
+    //left: 0;
+    //right: 0;
+    //margin: aut auto;
+    transform: translateX(-50%);
+    left: 50%;
+
+
+
+    //display: ;
+  }
+
+  a {
+    color: #4A001F;
+
+  }
+  &__right {
+    position: absolute;
+    display: flex;
+    z-index: 20;
+    //justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    float: right;
+    right: 0;
+    top: 0;
+  }
+
+  &__left {
+    position: absolute;
+    top: 0;
+    z-index: 20;
+    a {
+      color: rgba(196, 187, 175, 0.6);
+    }
+  }
+}
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+    //background-color: #4A001F;
+  }
+  body {
+    //background-color: #C4BBAF;
+
+  }
