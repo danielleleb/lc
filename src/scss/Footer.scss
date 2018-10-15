@@ -9,6 +9,7 @@
     bottom: 0;
     line-height: 10vh;
     z-index: 10;
+    //background-color: rgba(106, 107, 131, 0.29);
     //position: relative;
     
     &__icons {
@@ -34,6 +35,8 @@
         line-height: 0;
         // height: 10vh;
         // padding: 0 10px;
+
+        color: #2E0219;
         vertical-align: middle;
     }
 }

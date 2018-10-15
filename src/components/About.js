@@ -7,7 +7,7 @@ import Landing from './Landing';
 class About extends Component {
   render() {
     return (
-        <div>
+        <div className="about">
             <div className="background"></div>
             <div className="container">
                 <div className="text">

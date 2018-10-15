@@ -3,12 +3,13 @@ import '../scss/Landing.scss';
 
 class Landing extends Component {
   render() {
+
     return (
         <div className="landing">
 
             <div className="background"></div>
             <div className="container">
-                <h2 className="landing__text">
+                <h2 className="text">
                     Hi, I'm Danielle. <br/>
                     I'm a Canadian web developer currently working in Barcelona.
                 </h2>
