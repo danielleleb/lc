@@ -1,0 +1,51 @@
+.link {
+  .hover {
+    z-index: -1;
+    height: 20px;
+    width: 90%;
+    margin: 0 auto;
+    opacity: .6;
+    //background-color: red;
+    display: flex;
+    align-items: center;
+    //opacity: .8;
+    position: absolute;
+    //displasy: flex;
+    bottom:-9px;
+    //top: 0;
+    //left: 0;
+    //right: 0;
+    //margin: aut auto;
+    transform: translateX(-50%);
+    left: 50%;
+    //top: 10px;
+
+    &__half {
+      width: 100%;
+      height: 100%;
+      transition: all .3s ease;
+
+      display: inline-block;
+      &--one {
+        background-color: #A7C4C2;
+        transform: rotate(-3deg);
+
+      }
+      &--two {
+        background-color: #AACAB0;
+        transform: rotate(12deg);
+
+      }
+    }
+  }
+
+  &:hover {
+    .hover {
+      &__half {
+        transform: rotate(0deg) scale(1.3) translateY(-7px);
+        //          background-color: rgba(196, 187, 175, 0.6);
+      }
+    }
+  }
+}
+

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 import '../scss/Header.scss';
+import Link from './Link';
 
 class Header extends Component {
 
@@ -45,12 +46,27 @@ class Header extends Component {
         //     '#CCFFE7'
         //
         // ]
+        // const colorArray = [
+        //     '#533747',
+        //     '#5f506b',
+        //     '#6a6b83',
+        //     '#76949f',
+        //     '#86bbbd'
+        // ]
+        // const colorArray = [
+        //     '#1B2021',
+        //     '#51513d',
+        //     '#a6a867',
+        //     '#e3dc95',
+        //     '#e3dcc2'
+        // ]
+
         const colorArray = [
-            '#533747',
-            '#5f506b',
-            '#6a6b83',
-            '#76949f',
-            '#86bbbd'
+            '#0A0908',
+            '#22333B',
+            '#C6AC8F',
+            '#5E503F',
+            '#EAE0D5'
         ]
 
         const mouse = {
@@ -105,16 +121,14 @@ class Header extends Component {
 
                 // interactivity
 
-                if (mouse.x - this.x < 208 && mouse.x - this.x > -208
-                    && mouse.y - this.y < 208 && mouse.y - this.y > -208
+                if (mouse.x - this.x < 50 && mouse.x - this.x > -50
+                    && mouse.y - this.y < 50 && mouse.y - this.y > -50
                 ) {
-                    // if (this.dx < maxRadius) {
-                    //     this.dx += 1
-
-                //     }
-                // } else if (this.radius > this.minRadius) {
-                    this.dx += 208;
-                    this.dy += 208;
+                    if (this.radius < maxRadius) {
+                        this.radius += 1
+                    }
+                } else if (this.radius > this.minRadius) {
+                    this.radius -= 1;
                 }
 
                 this.draw();
@@ -127,7 +141,7 @@ class Header extends Component {
             circleArr = []
 
             for (let i = 0; i < 100; i++) {
-                const radius = Math.random() * 208 + 100;
+                const radius = Math.random() * 150 + 100;
                 const x = Math.random() * (self.state.width);
                 const y = Math.random() * (self.state.height);
                 const dx = (Math.random() - .5) ;
@@ -161,38 +175,28 @@ class Header extends Component {
       <nav className="header">
           <canvas ref="canvas" className="canvas"/>
           <div className="header__left">
-            <h4 className="header__item">
+            <h4 className="header__item link link">
                 <NavLink to="/" className="header__link"  >Danielle LC</NavLink>
             </h4>
           </div>
           <div className="header__right">
-            <h4 className="header__item">
+            <h4 className="header__item link">
               <NavLink to="/projects" className="header__link" >Projects
 
               </NavLink>
-                <span className="header__hover">
-                    <span className="header__half header__half--one"></span>
-                    <span className="header__half header__half--two"></span>
-
-                </span>
+                <Link/>
 
             </h4>
-            <h4 className="header__item">
+            <h4 className="header__item link">
               <NavLink to="/about" className="header__link" >About</NavLink>
-                <span className="header__hover">
-                    <span className="header__half header__half--one"></span>
-                    <span className="header__half header__half--two"></span>
+                <Link/>
 
-                </span>
 
             </h4>
-            <h4 className="header__item">
+            <h4 className="header__item link">
               <NavLink to="/contact" className="header__link" >Contact</NavLink>
-                <span className="header__hover">
-                    <span className="header__half header__half--one"></span>
-                    <span className="header__half header__half--two"></span>
+                <Link/>
 
-                </span>
 
             </h4>
           </div>

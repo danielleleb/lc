@@ -10,9 +10,14 @@ class Contact extends Component {
         <div className=" contact">
             <div className="background"></div>
             <div className="container">
-            <h3 className="text">
-                contaccccct
-            </h3>
+            <div className="text">
+                <h3 className="title">
+                    contact
+                </h3>
+                <p className="info">
+
+                </p>
+            </div>
             </div>
         </div>
     );
