@@ -16,20 +16,35 @@
 //$color-green: #A6A867;
 //$color-yellow: #E3DC95;
 //$color-white: #E3DCC2;
+//
+//$color-dark: #0A0908;
+//$color-blue: #22333B;
+//$color-green: #C6AC8F;
+//$color-yellow: #5E503F;
+//$color-white: #EAE0D5;
+//
+//$color-dark: #3F4848;
+//$color-blue: #B45540;
+//$color-green: #98A8AA;
+//$color-yellow: #F4BD39;
+//$color-white: #F9FAF9;
+$color-white-transparent: rgba(249, 250, 249, 0.81);
 
-$color-dark: #0A0908;
-$color-blue: #22333B;
-$color-green: #C6AC8F;
-$color-yellow: #5E503F;
-$color-white: #EAE0D5;
-
+$color-dark: #341D1C;
+$color-blue: #89303C;
+$color-green: #659A9B;
+$color-yellow: #F9C48E;
+$color-white: #FEFEFE;
 
 
 .fade-appear {
 
 }
 .fade-appear-active {
+  .background {
+    //animation: background-slide-out 2s;
 
+  }
 
 }
 
@@ -59,6 +74,7 @@ $color-white: #EAE0D5;
 
 @keyframes background-slide-out {
   0% {
+    //box-shadow: none;
     opacity: 1;
     transform: rotate(10deg);
     z-index: -1;
@@ -68,17 +84,20 @@ $color-white: #EAE0D5;
     z-index: 5;
   }
   45% {
-    transform: rotate(-20deg) scaleX(6);
+    transform: rotate(-20deg) scaleX(7);
     z-index:5;
   }
   59% {
     opacity: 1;
   }
   60% {
-    z-index: 5;
+    //z-index: 5;
     transform: translateX(-530px) ;
     opacity: 1;
 
+  }
+  99% {
+    //box-shadow: -2px 4px 20px 6px black;
   }
 }
 
@@ -216,18 +235,23 @@ $color-white: #EAE0D5;
   }
 }
 
+
+body {
+  background-color: $color-blue;
+}
 .background {
   //background-color: #4A001F;
-  background-color: $color-white;
+  background-color: $color-dark;
+  //border: 2px solid black;
   height: 200vh;
   top: -150px;
   left: -160px;
-  width: 650px;
+  width: 45vw;
   position: absolute;
   z-index: -5;
   transform: rotate(10deg);
   //transform: scaleX(6);
-  //box-shadow: 4px 4px 18px 0px gray;
+  //box-shadow: -2px 4px 20px 6px black;
   //clip-path: polygon(0 0, 100% 0, 55% 100%, 0% 100%);
 }
 
@@ -248,3 +272,13 @@ canvas {
   position: relative;
   //z-index: 2;
 }
+
+@media only screen and (max-width: 776px) {
+  .about {
+    &__image {
+      display: none;
+      margin-left: auto;
+    }
+  }
+}
+

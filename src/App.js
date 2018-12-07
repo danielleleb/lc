@@ -24,7 +24,7 @@ class App extends Component {
             <CSSTransition
             key={location.key}
             appear={true}
-            timeout={2000}
+            timeout={4000}
             classNames="fade">
               <Switch location={location}>
                 <Route path="/" component={Landing} exact />

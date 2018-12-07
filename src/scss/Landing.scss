@@ -1,3 +1,4 @@
+@import "App";
 .landing {
     height: 100%;
     width: 100%;
@@ -25,19 +26,25 @@
     padding: 10px;
     position: relative;
     display: flex;
-    background-color: rgba(196, 187, 175, 0.6);
+    //background-color: rgba(196, 187, 175, 0.6);
+    background-color: $color-white-transparent;
+    //opacity: .4;
+    overflow-y: scroll;
+    width: 60vw;
+    //box-shadow: gray 4px 4px 4px 4px;
 
 }
 
 .container {
-    width: 1000px;
+    width: 70vw;
     margin: 0 auto;
     padding-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: transparent;
-    overflow: scroll;
+    //background-color: transparent;
+    overflow-y: scroll;
     position: relative;
     top: 50px;
+    height: 90vh;
 }

@@ -7,6 +7,9 @@
     background-image: url('../media/danielle.png');
     height: 300px;
     width: 300px;
+    min-width: 300px;
+    //background-position: 50% 50%;
+    background-size: 300px;
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
   }
   .text {
@@ -17,6 +20,7 @@
       max-width: 60%;
       display: block;
       font-size: 25px;
+      overflow: scroll;
     }
   }
   p {

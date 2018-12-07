@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import PortfolioCard from './PortfolioCard';
 import '../scss/Portfolio.scss';
+import spotfindingImg from "../media/spotfinding.png";
+import rentilyImg from '../media/rentily.png';
+import danielleImg from '../media/danielle.png';
 
 
 const projects = [
@@ -9,27 +12,49 @@ const projects = [
         "description": "Created as an Ironhack Web Development final project, SpotFinding is like Airbnb for sports equipment.",
         "technologies": ["Angular", "MongoDB", "Express"],
         "codeLink": "https://github.com/",
-        "liveLink": "https://github.com/"
+        "liveLink": "https://github.com/",
+        "image": spotfindingImg
     },
     {
-        "title": "another",
-        "description": "Created as an Ironhack Web Development final project, another is like Airbnb for sports equipment.",
-        "technologies": ["Angular", "MongoDB", "Express"],
+        "title": "Portfolio",
+        "description": "Take a look at some of my projects. More can be found on my Codepen and Github accounts.",
+    },
+    {
+        "title": "Markdown Previewer",
+        "description": "Input and instantly display Github-flavoured markdown.",
+        "technologies": ["React", "Redux"],
         "codeLink": "https://github.com/",
         "liveLink": "https://github.com/"
     },
     {
-        "title": "three",
-        "description": "Created as an Ironhack Web Development final project, another is like Airbnb for sports equipment.",
-        "technologies": ["Angular", "MongoDB", "Express"],
+        "title": "Javascript Calculator",
+        "description": "",
+        "technologies": ["React", "Redux"],
         "codeLink": "https://github.com/",
-        "liveLink": "https://github.com/"
+        "liveLink": "https://github.com/",
+        "image": spotfindingImg
+
     },
     {
-        "title": "four",
-        "description": "Created as an Ironhack Web Development final project, another is like Airbnb for sports equipment.",
-        "technologies": ["Angular", "MongoDB", "Express"],
-        "liveLink": "https://github.com/"
+        "title": "Random Quote Generator",
+        "description": "",
+        "technologies": ["React", "Redux"],
+        "liveLink": "https://github.com/",
+        "image": spotfindingImg
+    },
+    {
+        "title": "Command Line Contact Manager",
+        "description": "Created as a way to experiment with and understand command line interfaces.",
+        "technologies": ["CommanderJS", "Express"],
+        "liveLink": "https://github.com/",
+        "image": spotfindingImg
+    },
+    {
+        "title": "Pure CSS Charts",
+        "description": "Three charts created using only CSS (of course with JS functionality for triggering animation). SVG implementation would have been easier, but CSS-only was a good challenge.",
+        "technologies": ["CSS", "Javascript"],
+        "liveLink": "https://github.com/",
+        "image": spotfindingImg
     }
 ];
 
@@ -43,7 +68,9 @@ class Portfolio extends Component {
           description={project.description}
           codeLink={project.codeLink}
           liveLink={project.liveLink}
-          technologies={project.technologies}/>)
+          technologies={project.technologies}
+          image={project.image}
+          />)
       }
 
     return (
