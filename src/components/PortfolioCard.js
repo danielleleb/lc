@@ -30,17 +30,23 @@ class PortfolioCard extends Component {
             }
         }
 
+        const imageStyle = {
+            backgroundImage: 'url(' + this.props.image + ')'
+        };
+
         return (
-            <div className="card__container">
+            <div className={"card " + (this.props.image ? '' : 'card--no-image')}>
 
                 {this.props.image &&
-                    <div className="card__wrapper">
-                        <div className="card__image"></div>
+                    <div className="card__image-wrapper">
+                        <div className="card__image"
+                        style={imageStyle}
+                        ></div>
                     </div>
                 }
 
-                    <div className="card__text">
-                            <h3 className="card__title">
+                    <div className={"card__text " + (this.props.image ? '' : 'card__text--no-image')}>
+                        <h3 className="card__title">
                             {this.props.title}
                         </h3>
                         <p className="card__desc">

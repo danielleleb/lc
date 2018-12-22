@@ -8,27 +8,21 @@ import danielleImg from '../media/danielle.png';
 
 const projects = [
     {
-        "title": "SpotFinding",
-        "description": "Created as an Ironhack Web Development final project, SpotFinding is like Airbnb for sports equipment.",
-        "technologies": ["Angular", "MongoDB", "Express"],
+        "title": "Markdown Previewer",
+        "description": "Input and instantly display Github-flavoured markdown.",
+        "technologies": ["React", "Redux"],
         "codeLink": "https://github.com/",
         "liveLink": "https://github.com/",
         "image": spotfindingImg
+
     },
     {
         "title": "Portfolio",
         "description": "Take a look at some of my projects. More can be found on my Codepen and Github accounts.",
     },
     {
-        "title": "Markdown Previewer",
-        "description": "Input and instantly display Github-flavoured markdown.",
-        "technologies": ["React", "Redux"],
-        "codeLink": "https://github.com/",
-        "liveLink": "https://github.com/"
-    },
-    {
         "title": "Javascript Calculator",
-        "description": "",
+        "description": "Just in case your phone/computer's built-in calculator is untrustworthy.",
         "technologies": ["React", "Redux"],
         "codeLink": "https://github.com/",
         "liveLink": "https://github.com/",
@@ -37,8 +31,16 @@ const projects = [
     },
     {
         "title": "Random Quote Generator",
-        "description": "",
+        "description": "Useful if you're looking to read and/or tweet random quotes.",
         "technologies": ["React", "Redux"],
+        "liveLink": "https://github.com/",
+        "image": spotfindingImg
+    },
+    {
+        "title": "SpotFinding",
+        "description": "Created as an Ironhack Web Development final project, SpotFinding is like Airbnb for sports equipment.",
+        "technologies": ["Angular", "MongoDB", "Express"],
+        "codeLink": "https://github.com/",
         "liveLink": "https://github.com/",
         "image": spotfindingImg
     },
@@ -46,6 +48,13 @@ const projects = [
         "title": "Command Line Contact Manager",
         "description": "Created as a way to experiment with and understand command line interfaces.",
         "technologies": ["CommanderJS", "Express"],
+        "liveLink": "https://github.com/",
+        "image": spotfindingImg
+    },
+    {
+        "title": "Rentily",
+        "description": "Ironhack module two project - my first foray into using Express.",
+        "technologies": ["ExpressJS"],
         "liveLink": "https://github.com/",
         "image": spotfindingImg
     },

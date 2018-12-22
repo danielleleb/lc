@@ -17,7 +17,7 @@ class App extends Component {
     return (
       <Router>
       <Route render={({ location }) => (
-          <div>
+          <div className='app'>
 
           <Header />
           <TransitionGroup>

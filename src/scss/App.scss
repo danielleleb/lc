@@ -237,7 +237,25 @@ $color-white: #FEFEFE;
 
 
 body {
-  background-color: $color-blue;
+  //max-width: 1920px;
+  //margin: 0 auto;
+  //position: relative;
+  //overflow-x: hidden;
+  //z-index: -100;
+}
+
+.app {
+  //background-color: $color-blue;
+  //height: 100vh;
+  //z-index: -1;
+  //position: relative;
+  //overflow: hidden;
+  //overflow-x: hidden;
+  //overflow-y: scroll;
+
+  div {
+    //overflow-y:scroll;
+  }
 }
 .background {
   //background-color: #4A001F;
@@ -245,7 +263,7 @@ body {
   //border: 2px solid black;
   height: 200vh;
   top: -150px;
-  left: -160px;
+  left: -170px;
   width: 45vw;
   position: absolute;
   z-index: -5;
@@ -282,3 +300,16 @@ canvas {
   }
 }
 
+#root {
+  max-width: 1920px;
+  margin: 0 auto;
+  height: 100vh;
+  max-height: 100vh;
+  //overflow-y: ;
+  //overflow: scroll;
+  //overflow-y: visible;
+  position: relative;
+  overflow: hidden;
+  background-color: $color-blue;
+  z-index: 0;
+}

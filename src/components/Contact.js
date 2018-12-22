@@ -15,7 +15,8 @@ class Contact extends Component {
                     contact
                 </h3>
                 <p className="info">
-
+                    Like my projects? Wanna chat?
+                    Add me on LinkedIn or send me an email.
                 </p>
             </div>
             </div>
