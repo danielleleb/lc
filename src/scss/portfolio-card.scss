@@ -147,11 +147,23 @@
   //margin: 10px;
   position: relative;
   //height: auto;
-  flex: 1 0 33%;
+  margin: 0 2px;
+  flex: 1 0 32%;
   min-width: 0;
 
+  &:nth-child(2) {
+    h3 {
+      font-family: 'Debonair';
+      font-weight: 400;
+      font-size: 45px;
+      margin-bottom: 0;
+      margin-top: 10px;
+      text-align: center;
+    }
+  }
+
   &:nth-child(5) {
-    top: -410px;
+    top: -470px;
   }
 
   &:nth-child(4),
@@ -166,6 +178,7 @@
     border-radius: 7px;
     z-index: 1;
     margin: 0 auto;
+    box-shadow: gray 1px 3px 19px 0px;
   }
   &__image {
     height: 250px;
@@ -182,6 +195,8 @@
     border-radiuS: 7px;
     position: relative;
     top: -150px;
+    box-shadow: gray 1px 3px 19px 0px;
+
 
     &--no-image {
       padding-top: 20px;

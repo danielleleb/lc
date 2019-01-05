@@ -9,10 +9,15 @@ class Landing extends Component {
 
             <div className="background"></div>
             <div className="container">
-                <h2 className="text">
-                    Hi, I'm Danielle. <br/>
-                    I'm a Canadian web developer currently working in Barcelona.
-                </h2>
+                <div className="text">
+                    <h1>Hello</h1>
+                    <p>
+                        I'm Danielle.
+                    </p>
+                    <p>
+                      I'm a Canadian web developer currently working in Barcelona.
+                    </p>
+                </div>
             </div>
         </div>
     );

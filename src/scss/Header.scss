@@ -1,6 +1,6 @@
 .header {
     width: 100%;
-    padding: 20px 10px 10px 10px;
+    padding: 20px 10px 10px 0px;
     display: flex;
     justify-content: space-between;
     //z-index:10;
@@ -106,9 +106,23 @@
   &__left {
     position: absolute;
     top: 0;
-    z-index: 20;
+    //z-index: 20;
+    font-family: 'Debonair';
+    font-size: 50px;
+    color: black;
+    font-weight: 400;
+    .link {
+      margin-top: 10px;
+
+    }
     a {
-      color: rgba(196, 187, 175, 0.6);
+      height: 80px;
+      width: 240px;
+      position: absolute;
+      display: block;
+      background-size: contain;
+      background-repeat: no-repeat;
+      //color: rgba(196, 187, 175, 0.6);
     }
   }
 }

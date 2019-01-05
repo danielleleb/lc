@@ -57,7 +57,7 @@ class PortfolioCard extends Component {
                         </p>
                         <p className="card__link--container">
                             {this.props.codeLink ?
-                                <a href={this.props.codeLink} className="card__link">
+                                <a href={this.props.codeLink} target="ß_blank" className="card__link">
                                     <FontAwesomeIcon icon={['fab', 'codepen']}/>
                                 </a> : '' }
 

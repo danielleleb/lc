@@ -28,17 +28,37 @@
 //$color-green: #98A8AA;
 //$color-yellow: #F4BD39;
 //$color-white: #F9FAF9;
-$color-white-transparent: rgba(249, 250, 249, 0.81);
+$color-white-transparent: white;
 
-$color-dark: #341D1C;
-$color-blue: #89303C;
-$color-green: #659A9B;
-$color-yellow: #F9C48E;
-$color-white: #FEFEFE;
+//$color-dark: #341D1C;
+//$color-blue: #89303C;
+//$color-green: #659A9B;
+//$color-yellow: #F9C48E;
+//$color-white: #FEFEFE;
+
+$color-dark: #A5DDE4;
+$color-white: white;
+$color-blue: black;
+$color-yellow: rgb(165, 221, 228);
+$color-green: #8DD6E0;
 
 
 .fade-appear {
+  .background {
+    //transform: rotate(-20deg) scaleX(7);
+    //z-index:5;
+    animation: appear 2s;
+    //animation-delay: 1s;
+  }
+  .container {
+    //opacity: 1;
+    //z-index: 5;
+    //transition: all .5s ease 1s;
+    //animation: entering-container-display 2s;
+    //display: none;
+    //transition-delay: 1s;
 
+  }
 }
 .fade-appear-active {
   .background {
@@ -100,6 +120,31 @@ $color-white: #FEFEFE;
     //box-shadow: -2px 4px 20px 6px black;
   }
 }
+@keyframes appear {
+  0% {
+    transform: rotate(-20deg) scaleX(7);
+    z-index:5;
+  }
+  44% {
+    //opacity: 1;
+    transform: rotate(-20deg) scaleX(7);
+    z-index:5;
+  }
+
+  75% {
+    transform: translateX(-530px) ;
+    //opacity: ;
+    //z-index: 1;
+     }
+  88% {
+
+    //opacity: 0;
+  }
+  8% {
+    //z-index: 1 ;
+  }
+}
+
 
 @keyframes entering-container-display {
   0% {
@@ -213,57 +258,13 @@ $color-white: #FEFEFE;
   }
 }
 
-.fade-exit-active {
-  //opacity: 0;
-  .container {
-    //z-index: -20;
-    //position: relative;
-    //z-index: -10;
-    //position: absolute;
-    //position: relative;
-    //animation: exiting-container-hide 2s;
-  }
-  .text {
-    //animation: exiting-container-hide 2s;
-  }
-  .background {
-    //position: relative;
-    //top: -100vh;
-    //opacity: 0;
-    //z-index: 5;
-    //animation: background-slide-out 2s;
-  }
-}
-
-
-body {
-  //max-width: 1920px;
-  //margin: 0 auto;
-  //position: relative;
-  //overflow-x: hidden;
-  //z-index: -100;
-}
-
-.app {
-  //background-color: $color-blue;
-  //height: 100vh;
-  //z-index: -1;
-  //position: relative;
-  //overflow: hidden;
-  //overflow-x: hidden;
-  //overflow-y: scroll;
-
-  div {
-    //overflow-y:scroll;
-  }
-}
 .background {
   //background-color: #4A001F;
   background-color: $color-dark;
   //border: 2px solid black;
   height: 200vh;
   top: -150px;
-  left: -170px;
+  left: -20vw;
   width: 45vw;
   position: absolute;
   z-index: -5;
@@ -273,18 +274,6 @@ body {
   //clip-path: polygon(0 0, 100% 0, 55% 100%, 0% 100%);
 }
 
-.container {
-  //width: 1000px;
-}
-canvas {
-  z-index: -6;
-  position: relative;
-  display: block;
-  opacity: .9;
-  top: -20px;
-
-  //perspective: 500;
-}
 
 .text {
   position: relative;
@@ -310,6 +299,12 @@ canvas {
   //overflow-y: visible;
   position: relative;
   overflow: hidden;
-  background-color: $color-blue;
+  //background-color: $color-blue;
+  background-image: url("https://vectr.com/danielleleb/a6a26QPBoF.svg?width=640&height=640&select=a6a26QPBoFpage0");
   z-index: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Raleway', sans-serif;
+
+  //opacity: .5;
 }

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 import '../scss/Header.scss';
 import Link from './Link';
+import daniellesvg from '../media/daniellelc.svg';
 
 class Header extends Component {
 
@@ -171,13 +172,17 @@ class Header extends Component {
 
 
   render() {
+      const imageStyle = {
+          backgroundImage: 'url(' + daniellesvg + ')'
+      };
+
     return (
       <nav className="header">
           {/*<canvas ref="canvas" className="canvas"/>*/}
           <div className="header__left">
-            <h4 className="header__item link link">
-                <NavLink to="/" className="header__link"  >Danielle LC</NavLink>
-            </h4>
+            <p className="header__item link link">
+                <NavLink to="/" className="header__link"  style={imageStyle}></NavLink>
+            </p>
           </div>
           <div className="header__right">
             <h4 className="header__item link">

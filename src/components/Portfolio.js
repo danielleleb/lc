@@ -21,6 +21,13 @@ const projects = [
         "description": "Take a look at some of my projects. More can be found on my Codepen and Github accounts.",
     },
     {
+        "title": "Pure CSS Charts",
+        "description": "Three charts created using only CSS (of course with JS functionality for triggering animation). SVG implementation would have been easier, but CSS-only was a good challenge.",
+        "technologies": ["CSS", "Javascript"],
+        "liveLink": "https://github.com/",
+        "image": spotfindingImg
+    },
+    {
         "title": "Javascript Calculator",
         "description": "Just in case your phone/computer's built-in calculator is untrustworthy.",
         "technologies": ["React", "Redux"],
@@ -58,13 +65,7 @@ const projects = [
         "liveLink": "https://github.com/",
         "image": spotfindingImg
     },
-    {
-        "title": "Pure CSS Charts",
-        "description": "Three charts created using only CSS (of course with JS functionality for triggering animation). SVG implementation would have been easier, but CSS-only was a good challenge.",
-        "technologies": ["CSS", "Javascript"],
-        "liveLink": "https://github.com/",
-        "image": spotfindingImg
-    }
+
 ];
 
 class Portfolio extends Component {
