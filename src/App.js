@@ -27,7 +27,7 @@ class App extends Component {
             timeout={4000}
             classNames="fade">
               <Switch location={location}>
-                <Route path="/" component={Landing} />
+                <Route path="/" component={Landing} exact />
                   <Route path="/lc" component={Landing} />
                 <Route path="/projects" component={Portfolio} />
                 <Route path="/about" component={About} />

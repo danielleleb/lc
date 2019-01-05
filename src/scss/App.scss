@@ -105,7 +105,7 @@ $color-green: #8DD6E0;
   }
   45% {
     transform: rotate(-20deg) scaleX(7);
-    z-index:5;
+    z-index:200;
   }
   59% {
     opacity: 1;
@@ -114,6 +114,7 @@ $color-green: #8DD6E0;
     //z-index: 5;
     transform: translateX(-530px) ;
     opacity: 1;
+    z-index: 1;
 
   }
   99% {
@@ -123,18 +124,18 @@ $color-green: #8DD6E0;
 @keyframes appear {
   0% {
     transform: rotate(-20deg) scaleX(7);
-    z-index:5;
+    z-index:200;
   }
   44% {
     //opacity: 1;
     transform: rotate(-20deg) scaleX(7);
-    z-index:5;
+    z-index:200;
   }
 
   75% {
     transform: translateX(-530px) ;
     //opacity: ;
-    //z-index: 1;
+    z-index: 1;
      }
   88% {
 
@@ -269,9 +270,11 @@ $color-green: #8DD6E0;
   position: absolute;
   z-index: -5;
   transform: rotate(10deg);
+  //background-image: url("../media/daniellelc.svg");
   //transform: scaleX(6);
   //box-shadow: -2px 4px 20px 6px black;
   //clip-path: polygon(0 0, 100% 0, 55% 100%, 0% 100%);
+
 }
 
 
