@@ -295,9 +295,10 @@
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .card {
     max-width: 100%;
+    width: 100%;
     flex: none;
     top: 80px !important;
     margin-bottom: -50px;

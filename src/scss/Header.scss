@@ -28,32 +28,25 @@
     }
     &__link {
         text-decoration: none;
-      &:hover {
-        &:before {
-          content: '';
-          width: 100%;
-          height: 1px;
-          background-color: $color-dark;
-        }
+      position: relative;
+      display: block;
+      &:before {
+        content: '';
+        width: 0;
+        height: 1px;
+        top: 20px;
+        background-color: $color-dark;
+        position: absolute;
+        display: block;
+        z-index: -1;
+        transition: width .3s linear;
+
+      }
+      &:hover:before {
+        width: 100%;
       }
     }
-  //&__half {
-  //  width: 100%;
-  //  height: 100%;
-  //  transition: all .3s ease;
-  //
-  //  display: inline-block;
-  //  &--one {
-  //    background-color: #A7C4C2;
-  //    transform: rotate(-3deg);
-  //
-  //  }
-  //  &--two {
-  //    background-color: #AACAB0;
-  //    transform: rotate(12deg);
-  //
-  //  }
-  //}
+
   &__hover {
     z-index: -1;
     height: 100%;
@@ -69,7 +62,7 @@
   }
 
   a {
-    color: #4A001F;
+    color: black;
 
   }
   &__right {
@@ -95,6 +88,13 @@
       margin-top: 10px;
 
     }
+
+    .header__link {
+      &:before {
+        background-color: #ababab;
+        top: 53px;
+      }
+    }
     a {
       height: 80px;
       width: 240px;
@@ -104,6 +104,14 @@
       background-repeat: no-repeat;
     }
   }
+
+  &__desktop {
+
+  }
+  &__burger,
+  &__burger--close{
+    display: none;
+  }
 }
 html {
     box-sizing: border-box;
@@ -111,3 +119,73 @@ html {
   *, *:before, *:after {
     box-sizing: inherit;
   }
+@media screen and (max-width: 500px) {
+  .header {
+    &__desktop {
+      width: 100%;
+      transition: all ease 1s;
+      background-color: $color-dark;
+      width: 100%;
+      height: 100vh;
+      position: absolute;
+      z-index: 20;
+      top: 0;
+      opacity: 0;
+      transform: translateY(-100%);
+      &--open {
+        opacity: 1;
+        transform: translateY(0);
+
+
+      }
+      .header {
+        &__left {
+          width: 100%;
+          a {
+            position: relative;
+            margin: 0 auto;
+            z-index: 21;
+          }
+        }
+
+        &__right {
+          display: block;
+          margin: 0 auto;
+          position: relative;
+          right: 0;
+          left: 0;
+          bottom: 0;
+          float: none;
+          .link {
+            top: 190px;
+          }
+        }
+
+        &__item {
+          top: 25vh;
+          width: 100%;
+          display: block;
+          text-align: center;
+          margin-bottom: 20px;
+        }
+      }
+    }
+    &__burger {
+      display: inline;
+      img {
+        height: 40px;
+        left: 10px;
+        position: relative;
+      }
+      &--close {
+        img {
+          height: 30px;
+          position: relative;
+          top: 20px;
+          left: 20px;
+          z-index: 21;
+        }
+      }
+    }
+  }
+}
