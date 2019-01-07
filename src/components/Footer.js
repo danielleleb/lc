@@ -23,11 +23,11 @@ class Footer extends Component {
                 <FontAwesomeIcon icon={['fab', 'codepen']}/>
             </a>
         </div>
-        <div className="footer__name">
-            <h3 className="footer__copyright">
-                Danielle Leblanc-Cyr
-            </h3>
-        </div>
+        {/*<div className="footer__name">*/}
+            {/*<h3 className="footer__copyright">*/}
+                {/*Danielle Leblanc-Cyr*/}
+            {/*</h3>*/}
+        {/*</div>*/}
       </nav>
     );
   }

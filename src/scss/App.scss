@@ -45,12 +45,49 @@ $color-green: #8DD6E0;
 
 .fade-appear {
   .background {
-
     animation: appear 2s;
+  }
+  &.landing {
+    .container {
+      opacity: 0;
+      animation: appear-text 3s;
+      //animation-delay: 2s;
+    }
   }
 }
 
-.fade-enter {
+
+@keyframes appear-text {
+  0% {
+    //h1 {
+    //  opacity: 0;
+    //}
+    //p {
+    //  opacity: 0;
+    //}
+  }
+  40% {
+    //h1 {
+    //  opacity: 0;
+    //}
+  }
+  50% {
+    //h1 {
+      opacity: 0;
+    //}
+  }
+  90% {
+    //p {
+    //  opacity: 0;
+    //}
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+.fade-enter.fade-enter-active {
   .background {
     animation: background-slide-out 2s;
   }

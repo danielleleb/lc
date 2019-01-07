@@ -2,13 +2,25 @@ import React, { Component } from 'react';
 import '../scss/Landing.scss';
 
 class Landing extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            initialLoad: true
+        }
+    }
+
+    componentDidMount() {
+        this.setState({
+            initialLoad: false
+        })
+    }
   render() {
 
     return (
         <div className="landing">
 
             <div className="background"></div>
-            <div className="container">
+            <div className={"container " + (this.state.initialLoad ? 'first-load' : '')}>
                 <div className="text">
                     <h1>Hello</h1>
                     <p>

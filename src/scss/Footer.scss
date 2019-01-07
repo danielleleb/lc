@@ -14,7 +14,7 @@
     //position: relative;
     
     &__icons {
-        display: inline;
+        display: flex;
         // line-height: 10vh;
         a {
             line-height: 10vh;
@@ -76,4 +76,16 @@
         color: #2E0219;
         vertical-align: middle;
     }
+}
+
+@media screen and (max-width: 900px) {
+    .footer {
+        &__icons {
+            flex-direction: column-reverse;
+            a {
+                line-height: 7vh;
+            }
+        }
+    }
+
 }

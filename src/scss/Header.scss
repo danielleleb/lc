@@ -42,6 +42,11 @@
         transition: width .3s linear;
 
       }
+      &.active{
+      &:before {
+        width: 0;
+      }
+    }
       &:hover:before {
         width: 100%;
       }

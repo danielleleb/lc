@@ -17,7 +17,7 @@ class Contact extends Component {
                 <div className="info">
                     Like my projects? <br/>
                     Wanna chat? <br/>
-                    Add me on
+                    Connect with me on
                     <a href="" className={"contact__link"}>
                         <span></span>
                         <p> LinkedIn </p>
