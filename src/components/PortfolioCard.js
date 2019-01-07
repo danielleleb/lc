@@ -9,9 +9,9 @@ library.add(fab);
 
 const CardTag = (props) => {
     return (
-        <div className="card__tech--item">
+        <span className="card__tech--item">
             {props.value}
-        </div>
+        </span>
     )
 };
 
@@ -22,11 +22,17 @@ function projectImage (props) {
 }
 
 class PortfolioCard extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            hovered: false
+        }
+    }
     render() {
         const techs = [];
         if (this.props.technologies) {
             for (let i = 0; i < this.props.technologies.length; i++) {
-                techs.push(<CardTag value={this.props.technologies[i]}/>)
+                techs.push(<CardTag value={this.props.technologies[i]} key={i}/>)
             }
         }
 
@@ -34,8 +40,15 @@ class PortfolioCard extends Component {
             backgroundImage: 'url(' + this.props.image + ')'
         };
 
+        // const handleHover = () => {
+        //     this.setState({
+        //         hovered: true
+        //     });
+        //     console.log('hover')
+        // }
+
         return (
-            <div className={"card " + (this.props.image ? '' : 'card--no-image')}>
+            <div className={"card " + (this.props.image ? '' : 'card--no-image') }>
 
                 {this.props.image &&
                     <div className="card__image-wrapper">
@@ -55,17 +68,20 @@ class PortfolioCard extends Component {
                         <p className="card_tech">
                             {techs}
                         </p>
-                        <p className="card__link--container">
+                        <div className="card__link--container">
                             {this.props.codeLink ?
-                                <a href={this.props.codeLink} target="ß_blank" className="card__link">
-                                    <FontAwesomeIcon icon={['fab', 'codepen']}/>
-                                </a> : '' }
+                                <a href={this.props.codeLink} target="_blank" className={"card__link " }>
+                                    <FontAwesomeIcon icon={['fab', 'github']}/>
+                                </a> : <span></span> }
 
                             {this.props.liveLink ?
-                                <a href={this.props.liveLink} className="card__link">
-                                    See it live
+                                <a href={this.props.liveLink} className="card__link card__link--text">
+                                    <span className="card__link--background"></span>
+                                    <p>
+                                        See it live
+                                    </p>
                                 </a> : '' }
-                        </p>
+                        </div>
                     </div>
 
             </div>

@@ -4,18 +4,21 @@ import '../scss/Portfolio.scss';
 import spotfindingImg from "../media/spotfinding.png";
 import rentilyImg from '../media/rentily.png';
 import danielleImg from '../media/danielle.png';
+import quoteImg from '../media/quote-machine.png';
+import calculatorImg from '../media/calc.png'
+
 
 
 const projects = [
     {
-        "title": "Markdown Previewer",
-        "description": "Input and instantly display Github-flavoured markdown.",
-        "technologies": ["React", "Redux"],
+        "title": "SpotFinding",
+        "description": "Created as an Ironhack Web Development final project, SpotFinding is like Airbnb for sports equipment.",
+        "technologies": ["Angular", "MongoDB", "Express"],
         "codeLink": "https://github.com/",
         "liveLink": "https://github.com/",
         "image": spotfindingImg
-
     },
+
     {
         "title": "Portfolio",
         "description": "Take a look at some of my projects. More can be found on my Codepen and Github accounts.",
@@ -33,6 +36,22 @@ const projects = [
         "technologies": ["React", "Redux"],
         "codeLink": "https://github.com/",
         "liveLink": "https://github.com/",
+        "image": calculatorImg
+
+    },
+    {
+        "title": "Rentily",
+        "description": "Ironhack module two project - my first foray into using Express.",
+        "technologies": ["ExpressJS"],
+        "liveLink": "https://github.com/",
+        "image": rentilyImg
+    },
+    {
+        "title": "Markdown Previewer",
+        "description": "Input and instantly display Github-flavoured markdown.",
+        "technologies": ["React", "Redux"],
+        "codeLink": "https://github.com/",
+        "liveLink": "https://github.com/",
         "image": spotfindingImg
 
     },
@@ -41,16 +60,9 @@ const projects = [
         "description": "Useful if you're looking to read and/or tweet random quotes.",
         "technologies": ["React", "Redux"],
         "liveLink": "https://github.com/",
-        "image": spotfindingImg
+        "image": quoteImg
     },
-    {
-        "title": "SpotFinding",
-        "description": "Created as an Ironhack Web Development final project, SpotFinding is like Airbnb for sports equipment.",
-        "technologies": ["Angular", "MongoDB", "Express"],
-        "codeLink": "https://github.com/",
-        "liveLink": "https://github.com/",
-        "image": spotfindingImg
-    },
+
     {
         "title": "Command Line Contact Manager",
         "description": "Created as a way to experiment with and understand command line interfaces.",
@@ -58,13 +70,7 @@ const projects = [
         "liveLink": "https://github.com/",
         "image": spotfindingImg
     },
-    {
-        "title": "Rentily",
-        "description": "Ironhack module two project - my first foray into using Express.",
-        "technologies": ["ExpressJS"],
-        "liveLink": "https://github.com/",
-        "image": spotfindingImg
-    },
+
 
 ];
 
@@ -74,7 +80,10 @@ class Portfolio extends Component {
 
       for (let i = 0; i < projects.length; i++) {
           let project = projects[i];
-          elements.push(<PortfolioCard title={project.title}
+          elements.push(<PortfolioCard key={i}
+           title={project.title}
+           key={i}
+           id={i}
           description={project.description}
           codeLink={project.codeLink}
           liveLink={project.liveLink}

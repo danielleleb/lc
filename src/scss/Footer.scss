@@ -1,3 +1,4 @@
+@import "App";
 .footer {
     height: 10vh;
     //border: 1px solid black;
@@ -25,9 +26,45 @@
             width: 30px !important;
             line-height: 10vh;
             vertical-align: middle;
-            color: rgba(196, 187, 175, 0.6);
+            color: black;
 
 
+        }
+    }
+
+    &__icon {
+        display: inline;
+        position: relative;
+        &--linkedin {
+            &:hover {
+                svg {
+                    color: $color-dark;
+                    background-color: black;
+                }
+
+            }
+        }
+        &--github {
+            svg {
+                border-radius: 50%;
+            }
+            &:hover {
+                svg {
+                    color: $color-dark;
+                    background-color: black;
+                }
+            }
+        }
+        &--codepen {
+            svg {
+                //border-radius: 50%;
+            }
+            &:hover {
+                svg {
+                    color: $color-dark;
+                    background-color: black;
+                }
+            }
         }
     }
     &__copyright {

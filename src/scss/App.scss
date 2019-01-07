@@ -45,27 +45,9 @@ $color-green: #8DD6E0;
 
 .fade-appear {
   .background {
-    //transform: rotate(-20deg) scaleX(7);
-    //z-index:5;
+
     animation: appear 2s;
-    //animation-delay: 1s;
   }
-  .container {
-    //opacity: 1;
-    //z-index: 5;
-    //transition: all .5s ease 1s;
-    //animation: entering-container-display 2s;
-    //display: none;
-    //transition-delay: 1s;
-
-  }
-}
-.fade-appear-active {
-  .background {
-    //animation: background-slide-out 2s;
-
-  }
-
 }
 
 .fade-enter {
@@ -73,175 +55,11 @@ $color-green: #8DD6E0;
     animation: background-slide-out 2s;
   }
   .container {
-    //opacity: 1;
-    //z-index: 5;
-    //transition: all .5s ease 1s;
     animation: entering-container-display 2s;
-    //display: none;
-    //transition-delay: 1s;
-
-  }
-}
-
-.fade-enter-active {
-
-}
-
-.fade-enter-done {
-  //position: relative;
-  //z-index: 10;
-}
-
-@keyframes background-slide-out {
-  0% {
-    //box-shadow: none;
-    opacity: 1;
-    transform: rotate(10deg);
-    z-index: -1;
-  }
-  20% {
-    transform: rotate(-20deg) translateX(-530px);
-    z-index: 5;
-  }
-  45% {
-    transform: rotate(-20deg) scaleX(7);
-    z-index:200;
-  }
-  59% {
-    opacity: 1;
-  }
-  60% {
-    //z-index: 5;
-    transform: translateX(-530px) ;
-    opacity: 1;
-    z-index: 1;
-
-  }
-  99% {
-    //box-shadow: -2px 4px 20px 6px black;
-  }
-}
-@keyframes appear {
-  0% {
-    transform: rotate(-20deg) scaleX(7);
-    z-index:200;
-  }
-  44% {
-    //opacity: 1;
-    transform: rotate(-20deg) scaleX(7);
-    z-index:200;
-  }
-
-  75% {
-    transform: translateX(-530px) ;
-    //opacity: ;
-    z-index: 1;
-     }
-  88% {
-
-    //opacity: 0;
-  }
-  8% {
-    //z-index: 1 ;
   }
 }
 
 
-@keyframes entering-container-display {
-  0% {
-    visibility: hidden;
-    opacity: 0;
-    max-height: 0;
-    z-index: -20;
-    //display: none;
-    //display: none;
-  }
-  44% {
-    visibility: hidden;
-    max-height: 0;
-    opacity: 0;
-    //display: block;
-  }
-  45% {
-    visibility: visible;
-    opacity: 1;
-    display: block;
-    max-height: none;
-    //height: auto;
-    //display: block;
-    //z-index: -1;
-  }
-}
-
-@keyframes exiting-container-hide {
-  0% {
-    opacity: 1;
-    //height: auto;
-    //display: none;
-    //z-index: -10;
-  }
-  20% {
-    z-index:-10;
-  }
-  44% {
-    //height: auto;
-    opacity: 1;
-    //max-height: none;
-    //z-index: -10;
-  }
-  45% {
-    //max-height: 0;
-    //display: none;
-    //opacity: 0;
-    //max-height: 0;
-    //display: block;
-    //z-index: -1;
-  }
-  80% {
-    //opacity: 1;
-  }
-  81% {
-    //opacity: 0;
-  }
-}
-
-//@keyframes slide-in {
-//  0% {
-//    //transform: rotate(10deg);
-//    //opacity: 1;
-//    //z-index: 5;
-//    display: none;
-//    //opacity: 0;
-//  }
-//  20% {
-//    //opacity: 0;
-//    //display: block;
-//
-//    transform: rotate(-20deg) translateX(-530px);
-//    //z-index: 5;
-//  }
-//  44% {
-//    opacity: 0;
-//  }
-//  45% {
-//    opacity: 1;
-//    transform: rotate(-20deg) scaleX(6);
-//    z-index:5;
-//  }
-//  59% {
-//    //opacity: 0;
-//  }
-//  60% {
-//    //opacity: 0;
-//    transform: translateX(-530px);
-//  }
-//  90% {
-//  }
-//  100% {
-//    transform: rotate(10deg) scaleX(1);
-//    opacity: 1;
-//  }
-//}
 
 .fade-exit {
   .background {
@@ -255,32 +73,23 @@ $color-green: #8DD6E0;
     left: 50%;
     opacity: 0;
     transition: opacity .5s ease .5s;
-    //animation: exiting-container-hide 2s;
   }
 }
 
 .background {
-  //background-color: #4A001F;
   background-color: $color-dark;
-  //border: 2px solid black;
   height: 200vh;
   top: -150px;
   left: -20vw;
-  width: 45vw;
+  width: 55vw;
   position: absolute;
   z-index: -5;
   transform: rotate(10deg);
-  //background-image: url("../media/daniellelc.svg");
-  //transform: scaleX(6);
-  //box-shadow: -2px 4px 20px 6px black;
-  //clip-path: polygon(0 0, 100% 0, 55% 100%, 0% 100%);
-
 }
 
 
 .text {
   position: relative;
-  //z-index: 2;
 }
 
 @media only screen and (max-width: 776px) {
@@ -297,17 +106,91 @@ $color-green: #8DD6E0;
   margin: 0 auto;
   height: 100vh;
   max-height: 100vh;
-  //overflow-y: ;
-  //overflow: scroll;
-  //overflow-y: visible;
   position: relative;
   overflow: hidden;
-  //background-color: $color-blue;
   background-image: url("https://vectr.com/danielleleb/a6a26QPBoF.svg?width=640&height=640&select=a6a26QPBoFpage0");
   z-index: 0;
   background-repeat: no-repeat;
   background-size: cover;
   font-family: 'Raleway', sans-serif;
-
-  //opacity: .5;
 }
+
+
+@keyframes background-slide-out {
+  0% {
+    opacity: 1;
+    transform: rotate(10deg);
+    z-index: -1;
+  }
+  20% {
+    transform: rotate(-20deg) translateX(-530px);
+    z-index: 5;
+  }
+  45% {
+    transform: rotate(-20deg) scaleX(7);
+    z-index:200;
+  }
+  59% {
+    opacity: 1;
+  }
+  60% {
+    transform: translateX(-530px) ;
+    opacity: 1;
+    z-index: 1;
+
+  }
+}
+@keyframes appear {
+  0% {
+    transform: rotate(-20deg) scaleX(7);
+    z-index:200;
+  }
+  44% {
+    transform: rotate(-20deg) scaleX(7);
+    z-index:200;
+  }
+
+  75% {
+    transform: translateX(-530px) ;
+    z-index: 1;
+  }
+}
+
+
+@keyframes entering-container-display {
+  0% {
+    visibility: hidden;
+    opacity: 0;
+    max-height: 0;
+    z-index: -20;
+  }
+  44% {
+    visibility: hidden;
+    max-height: 0;
+    opacity: 0;
+  }
+  45% {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+    max-height: none;
+  }
+}
+
+@keyframes exiting-container-hide {
+  0% {
+    opacity: 1;
+  }
+  20% {
+    z-index:-10;
+  }
+  44% {
+    opacity: 1;
+  }
+}
+
+//@media screen and (max-width: 600px) {
+//  .background {
+//    width: 55vw;
+//  }
+//}

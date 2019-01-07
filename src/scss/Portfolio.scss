@@ -5,12 +5,24 @@
     flex-wrap: wrap;
     justify-content: space-between;
     height: 100vh;
-    top: 0;
-    padding-top: 150px;
-    //padding-right:
-    //align-items: flex-start;
-    &::-webkit-scrollbar {
-      display: none;
-    }
+    //top: 0;
+    //padding-top: 150px;
+    ////padding-right:
+    ////align-items: flex-start;
+    //&::-webkit-scrollbar {
+    //  display: none;
+    //}
+  }
+}
+
+
+.container {
+  //height: 100vh;
+  top: 0;
+  padding-top: 150px;
+  //padding-right:
+  //align-items: flex-start;
+  &::-webkit-scrollbar {
+    display: none;
   }
 }

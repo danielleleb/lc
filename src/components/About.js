@@ -9,8 +9,13 @@ class About extends Component {
             <div className="background"></div>
             <div className="container">
                 <div className="text">
-                    <div className="about__image">
+                    <div className="left">
+                        <div className="title">
+                            About Me
+                        </div>
+                        <div className="about__image">
 
+                        </div>
                     </div>
                     <div className='info'>
                         <p>
@@ -20,7 +25,7 @@ class About extends Component {
                         As a web developer currently employed at <a className='link' href=''>creating-web <Link/></a> in Barcelona, I get to spend my days working on interesting projects while honing my HTML/Sass/PHP/Javascript/Pimcore skills.
                         </p>
                         <p>
-                        When I'm not at the office, you can find me exploring Barcelona, working on freelance projects, or trying out new techologies and courses.
+                            I also have experience with React, Angular2, Express and Node.
                         </p>
                         <p>
                             Check out my <a href="" className="link">Codepen <Link/></a> and <a href="" className="link">Github <Link/></a> profiles to see what I'm up to (spoiler alert: at the moment, I'm all about React).

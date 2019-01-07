@@ -189,18 +189,18 @@ class Header extends Component {
               <NavLink to="/projects" className="header__link" >Projects
 
               </NavLink>
-                <Link/>
+                {/*<Link/>*/}
 
             </h4>
             <h4 className="header__item link">
               <NavLink to="/about" className="header__link" >About</NavLink>
-                <Link/>
+                {/*<Link/>*/}
 
 
             </h4>
             <h4 className="header__item link">
               <NavLink to="/contact" className="header__link" >Contact</NavLink>
-                <Link/>
+                {/*<Link/>*/}
 
 
             </h4>
