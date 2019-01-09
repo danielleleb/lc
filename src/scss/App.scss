@@ -1,40 +1,6 @@
-// VARIABLES
-//$color-red: #75485E;
-//$color-blue: #51A3A3;
-//$color-green: #C3E991;
-//$color-yellow: #DFCC74;
-//$color-orange: #CB904D;
 
-//$color-dark: #533747;
-//$color-blue: #5F506B;
-//$color-green: #6A6B83;
-//$color-yellow: #86BBBD;
-//$color-white: #76949f;
-
-//$color-dark: #1B2021;
-//$color-blue: #51513d;
-//$color-green: #A6A867;
-//$color-yellow: #E3DC95;
-//$color-white: #E3DCC2;
-//
-//$color-dark: #0A0908;
-//$color-blue: #22333B;
-//$color-green: #C6AC8F;
-//$color-yellow: #5E503F;
-//$color-white: #EAE0D5;
-//
-//$color-dark: #3F4848;
-//$color-blue: #B45540;
-//$color-green: #98A8AA;
-//$color-yellow: #F4BD39;
-//$color-white: #F9FAF9;
 $color-white-transparent: white;
 
-//$color-dark: #341D1C;
-//$color-blue: #89303C;
-//$color-green: #659A9B;
-//$color-yellow: #F9C48E;
-//$color-white: #FEFEFE;
 
 $color-dark: #A5DDE4;
 $color-white: white;
@@ -48,9 +14,8 @@ $color-green: #8DD6E0;
     animation: appear 2s;
   }
   &.landing {
-    .container {
-      opacity: 0;
-      animation: appear-text 3s;
+    .container.first-load {
+      animation: appear-text 2s;
       //animation-delay: 2s;
     }
   }
@@ -59,6 +24,7 @@ $color-green: #8DD6E0;
 
 @keyframes appear-text {
   0% {
+    opacity: 0;
     //h1 {
     //  opacity: 0;
     //}
@@ -87,7 +53,7 @@ $color-green: #8DD6E0;
 }
 
 
-.fade-enter.fade-enter-active {
+.fade-enter {
   .background {
     animation: background-slide-out 2s;
   }
@@ -160,7 +126,7 @@ $color-green: #8DD6E0;
     z-index: -1;
   }
   20% {
-    transform: rotate(-20deg) translateX(-530px);
+    transform: rotate(-20deg) translateX(-630px);
     z-index: 5;
   }
   45% {
@@ -169,9 +135,10 @@ $color-green: #8DD6E0;
   }
   59% {
     opacity: 1;
+    z-index: 200;
   }
   60% {
-    transform: translateX(-530px) ;
+    transform: translateX(-630px) ;
     opacity: 1;
     z-index: 1;
 
@@ -188,7 +155,7 @@ $color-green: #8DD6E0;
   }
 
   75% {
-    transform: translateX(-530px) ;
+    transform: translateX(-630px) ;
     z-index: 1;
   }
 }

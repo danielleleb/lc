@@ -7,13 +7,17 @@ class Landing extends Component {
         this.state = {
             initialLoad: true
         }
+
     }
 
     componentDidMount() {
-        this.setState({
-            initialLoad: false
-        })
+        setTimeout(() => {
+            this.setState({
+                initialLoad: false
+            })
+        }, 10000)
     }
+
   render() {
 
     return (
