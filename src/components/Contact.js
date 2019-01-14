@@ -13,10 +13,13 @@ class Contact extends Component {
             <div className="text">
                 {/*<div className="title">*/}
                     Contact
+                <br/>
+                <br/>
                 {/*</div>*/}
                 {/*<div className="info">*/}
-                    Like my projects? <br/>
+                    Like my projects?
                     Wanna chat? <br/>
+                <br/>
                     Connect with me on
                     <a href="" className={"link--secondary"}>
                         <span></span>

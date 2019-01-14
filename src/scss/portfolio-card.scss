@@ -6,7 +6,7 @@
   margin: 0 2px;
   flex: 1 0 32%;
   min-width: 0;
-
+  height: 400px;
   &--hovered {
     .card {
       height: auto;
@@ -26,6 +26,7 @@
   }
 
   &:nth-child(2) {
+    height: 300px;
     h3 {
       font-family: 'Debonair';
       font-weight: 400;
@@ -44,19 +45,25 @@
   }
 
   &:nth-child(7) {
-    top: -510px;
+    top: -70px;
+    height: 300px;
+    width: 32%;
+    //padding: 0 1px;
+    max-width: 28%;
   }
 
   &:nth-child(5) {
-    top: -410px;
+    top: -160px;
   }
 
   &:nth-child(4) {
-    top: -100px;
+    top: 125px;
+    height: 400px;
   }
 
   &:nth-child(6) {
-    top: -120px;
+    top: 110px;
+    height: 400px;
   }
 
   &__image-wrapper {
@@ -159,18 +166,25 @@
     max-width: 100%;
     width: 100%;
     flex: none;
-    top: 80px !important;
-    margin-bottom: -50px;
-    margin-top: -70px;
+    top: 0px !important;
+    margin-bottom: 80px;
+    //margin-top: -70px;
     position: relative;
     //height: 500px;
     &:nth-child(2) {
       order: 0;
-      margin-bottom: 100px;
+      margin-bottom: -60px;
     }
 
     &:nth-child(1) {
       order: 1;
+      //margin-top: 30px !important;
+    }
+    &:nth-child(7) {
+      width: 100%;
+      max-width: none;
+      height: 180px;
+      //margin-
       //margin-top: 30px !important;
     }
   }

@@ -21,6 +21,7 @@ class About extends Component {
                         <p>
                             I'm Danielle.
                         </p>
+                    <br/>
                         <p>
                         As a web developer currently employed at
                             <a className='link--secondary' href='/'>
@@ -30,9 +31,11 @@ class About extends Component {
                                 </p>
                             </a> in Barcelona, I get to spend my days working on interesting projects while honing my HTML/Sass/PHP/Javascript/Pimcore skills.
                         </p>
+                    <br/>
                         <p>
                             I also have experience with React, Angular2, Express and Node.
                         </p>
+                    <br/>
                         <p>
                             Check out my
                             <a href="/" className="link--secondary">
@@ -46,8 +49,9 @@ class About extends Component {
                                 <p>
                                     Github
                                 </p>
-                            </a> profiles to see what I'm up to (spoiler alert: at the moment, I'm all about React).
+                            </a> profiles to see what I'm up to.
                         </p>
+                    <br/>
                         <p>
                             I'm always looking to get involved in new freelance projects, so feel free to
                             <a href="/" className="link--secondary">
