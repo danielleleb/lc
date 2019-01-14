@@ -1,28 +1,68 @@
+@import "App";
+
 .portfolio {
   .container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
-    height: 100vh;
-    //top: 0;
-    //padding-top: 150px;
-    ////padding-right:
-    ////align-items: flex-start;
-    //&::-webkit-scrollbar {
-    //  display: none;
-    //}
+    justify-content: space-evenly;
+    height: 1400px;
+    padding-top: 150px;
   }
 }
 
 
 .container {
-  //height: 100vh;
-  top: 0;
-  padding-top: 150px;
-  //padding-right:
-  //align-items: flex-start;
-  &::-webkit-scrollbar {
-    display: none;
+  //padding-top: 150px;
+  display: flex;
+
+}
+
+
+.text {
+  margin: 0 auto;
+  font-size: 40px;
+  padding: 10px;
+  position: relative;
+  //display: flex;
+  //background-color: rgba(196, 187, 175, 0.6);
+  background-color: $color-white-transparent;
+  //opacity: .4;
+  overflow-y: scroll;
+  width: 60vw;
+  border-radiuS: 7px;
+
+  h1 {
+    font-size: 70px;
+    font-family: 'Debonair';
+    font-weight: 400;
+    //display: inline;
+    margin-top: 0;
   }
+  p {
+    //display: block;
+    margin: 0 auto;
+  }
+  //box-shadow: gray 4px 4px 4px 4px;
+
+}
+
+.container {
+  width: 70vw;
+  max-width: 1100px;
+  margin: 0 auto;
+  //padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow-y: scroll;
+  position: relative;
+  //top: 50px;
+  height: 100vh;
+  top: 0;
+  //padding-top: 150px;
+  &::-webkit-scrollbar {
+    display: none !important;
+  }
+
 }

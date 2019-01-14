@@ -1,159 +1,11 @@
 @import "App";
-//.card {
-////  //height: 400px;
-////  width: 300px;
-////  //border: 1px solid black;
-////  //color: rgba(255, 255, 255, 0.78);
-////  border-radius: 4px;
-////  display: inline-block;
-////  margin: 10px;
-////  //background-color: #775B59;
-////  transition: all .3s ease;
-////  //background-color: rgba(196, 187, 175, 0.9);
-////  background-color: $color-white;
-////  //color: $color-white;
-////  opacity: .95;
-////  padding: 20px;
-////  //color: white;
-////  //opacity: .3;
-////
-////  &:hover {
-////    transition: all .3s ease;
-////
-////    box-shadow: 0px 3px 20px 0px gray;
-////    opacity: 1;
-////  }
-////
-////  &__container {
-////    height: auto;
-////  }
-////
-////  &__image {
-////    height: 250px;
-////    width: 100%;
-////    position: relative;
-////    top: -100px;
-////    background-color: $color-yellow;
-////    border-radius: 7px;
-////  }
-////
-////  &__tech {
-////    &--item {
-////      //background-color: rgb(196, 187, 175);
-////      background-color: $color-yellow;
-////      //color: $color-red;
-////      //border: 1px solid white;
-////      padding: 4px;
-////      display: inline;
-////      margin: 0 3px;
-////    }
-////  }
-////}
-
-
-
-
-//.card {
-//  &__container {
-//    position: relative;
-//    //top: -150px;
-//    display: inline-flex;
-//    align-items: center;
-//    flex-direction: column;
-//    margin: 10px;
-//    width: 300px;
-//    height: min-content;
-//      &:hover {
-//        .card__text {
-//          box-shadow: 0px 3px 20px 0px gray;
-//          background-color: $color-white;
-//          //opacity: 1;
-//        }
-//      }
-//
-//    &:nth-child(1) {
-//      .card {
-//        &__text {}
-//      }
-//    }
-//
-//    &:nth-child(2) {
-//      .card {
-//        &__text {
-//          top: 0;
-//          //height: 100px;
-//          padding-top: 0;
-//        }
-//      }
-//    }
-//
-//    &:nth-child(3) {
-//      .card {
-//        &__text {
-//
-//          //top:
-//        }
-//      }
-//    }
-//
-//    &:nth-child(5) {
-//      //top: -500px;
-//      .card {
-//        &__text {
-//
-//        }
-//      }
-//    }
-//  }
-//
-//  &__wrapper {
-//    background-color: $color-yellow;
-//    width: 90%;
-//    border-radius: 7px;
-//  }
-//
-//
-//
-//  &__image {
-//    height: 250px;
-//    width: 100%;
-//    margin: 0 auto;
-//    position: relative;
-//    background: linear-gradient(rgba($color-blue, .2), rgba($color-blue, .2)), url("../media/spotfinding.png");
-//    //background-image:  ;
-//    background-position: center;
-//    background-size: contain;
-//    //bottom: -140px;
-//    //background-color: $color-yellow;
-//    border-radius: 7px;
-//    box-shadow: 0px 3px 20px 0px gray;
-//  }
-//
-//  &__text {
-//    position: relative;
-//    top: -150px;
-//    z-index: -1;
-//    width: 100%;
-//    background-color: $color-white-transparent;
-//    transition: all .3s ease;
-//    padding: 150px 20px 20px;
-//    border-radiuS: 7px;
-//
-//  }
-//}
 
 .card {
   max-width: 300px;
-  //margin: 10px;
   position: relative;
-  //height: auto;
   margin: 0 2px;
   flex: 1 0 32%;
   min-width: 0;
-  //height: 400px;
-  //margin-bottom: 40px;
-  //top: 40px;
-  //padding: 90
 
   &--hovered {
     .card {
@@ -191,13 +43,20 @@
     }
   }
 
+  &:nth-child(7) {
+    top: -510px;
+  }
+
   &:nth-child(5) {
     top: -410px;
   }
 
-  &:nth-child(4),
-  &:nth-child(6) {
+  &:nth-child(4) {
     top: -100px;
+  }
+
+  &:nth-child(6) {
+    top: -120px;
   }
 
   &__image-wrapper {

@@ -11,23 +11,23 @@ class Contact extends Component {
             <div className="background"></div>
             <div className="container">
             <div className="text">
-                <div className="title">
+                {/*<div className="title">*/}
                     Contact
-                </div>
-                <div className="info">
+                {/*</div>*/}
+                {/*<div className="info">*/}
                     Like my projects? <br/>
                     Wanna chat? <br/>
                     Connect with me on
-                    <a href="" className={"contact__link"}>
+                    <a href="" className={"link--secondary"}>
                         <span></span>
                         <p> LinkedIn </p>
                     </a>
                      or
-                    <a href="" className={"contact__link"}>
+                    <a href="" className={"link--secondary"}>
                         <span></span>
                         <p> send me an email. </p>
                     </a>
-                </div>
+                {/*</div>*/}
             </div>
             </div>
         </div>

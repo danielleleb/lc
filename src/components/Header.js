@@ -5,6 +5,7 @@ import Link from './Link';
 import daniellesvg from '../media/daniellelc.svg';
 import burger from '../media/burger.svg';
 import exit from '../media/exit.svg';
+import Footer from './Footer';
 
 
 class Header extends Component {
@@ -41,42 +42,45 @@ class Header extends Component {
       }
 
     return (
-      <nav className="header">
-          <div className="header__burger">
-              <img onClick={() => handleBurgerClick()} src={burger} alt=""/>
-          </div>
-          <div className={"header__desktop " + (this.state.burgerOpen === true ? 'header__desktop--open' : '')}>
-              <div className="header__burger--close">
-                  <img onClick={() => handleCloseMenuClick()} src={exit} alt=""/>
+        <div>
+          <nav className="header">
+              <div className="header__burger">
+                  <img onClick={() => handleBurgerClick()} src={burger} alt=""/>
               </div>
-              <div className="header__left">
-                  <div className="header__item link ">
-                      <NavLink onClick={() => handleCloseMenuClick()} to="/" className="header__link"  style={imageStyle}></NavLink>
+              <div className={"header__desktop " + (this.state.burgerOpen === true ? 'header__desktop--open' : '')}>
+                  <div className="header__burger--close">
+                      <img onClick={() => handleCloseMenuClick()} src={exit} alt=""/>
                   </div>
+                  <div className="header__left">
+                      <div className="header__item ">
+                          <NavLink onClick={() => handleCloseMenuClick()} to="/" className="header__link link"  style={imageStyle}></NavLink>
+                      </div>
+                  </div>
+                  <div className="header__right">
+                      <h4 className="header__item">
+                          <NavLink onClick={() => handleCloseMenuClick()} to="/projects" className="header__link link" >Projects
+
+                          </NavLink>
+                          {/*<Link/>*/}
+
+                      </h4>
+                      <h4 className="header__item">
+                          <NavLink onClick={() => handleCloseMenuClick()} to="/about" className="header__link link" >About</NavLink>
+                          {/*<Link/>*/}
+
+
+                      </h4>
+                      <h4 className="header__item">
+                          <NavLink onClick={() => handleCloseMenuClick()} to="/contact" className="header__link link" >Contact</NavLink>
+                          {/*<Link/>*/}
+
+
+                      </h4>
+                  </div>
+            <Footer/>
               </div>
-              <div className="header__right">
-                  <h4 className="header__item link">
-                      <NavLink onClick={() => handleCloseMenuClick()} to="/projects" className="header__link" >Projects
-
-                      </NavLink>
-                      {/*<Link/>*/}
-
-                  </h4>
-                  <h4 className="header__item link">
-                      <NavLink onClick={() => handleCloseMenuClick()} to="/about" className="header__link" >About</NavLink>
-                      {/*<Link/>*/}
-
-
-                  </h4>
-                  <h4 className="header__item link">
-                      <NavLink onClick={() => handleCloseMenuClick()} to="/contact" className="header__link" >Contact</NavLink>
-                      {/*<Link/>*/}
-
-
-                  </h4>
-              </div>
-          </div>
-      </nav>
+          </nav>
+        </div>
     );
   }
 }

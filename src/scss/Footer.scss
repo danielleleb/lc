@@ -7,7 +7,7 @@
     justify-content: space-between;
     padding: 0 5px;
     position: absolute;
-    bottom: 0;
+    bottom: -99vh;
     line-height: 10vh;
     z-index: 10;
     //background-color: rgba(106, 107, 131, 0.29);
@@ -32,6 +32,12 @@
         }
     }
 
+
+    svg {
+        color: initial;
+        transition: color .5s cubic-bezier(.25, 1, .25, 1);
+    }
+
     &__icon {
         display: inline;
         position: relative;
@@ -52,6 +58,7 @@
                 svg {
                     color: $color-dark;
                     background-color: black;
+                    border: 1px solid black;
                 }
             }
         }
@@ -81,10 +88,17 @@
 @media screen and (max-width: 900px) {
     .footer {
         &__icons {
-            flex-direction: column-reverse;
-            a {
-                line-height: 7vh;
-            }
+            //display: none;
+            //flex-direction: column-reverse;
+            //a {
+            //    line-height: 7vh;
+            //}
+        }
+    }
+
+    .portfolio {
+        .container {
+            //height: auto;
         }
     }
 

@@ -16,7 +16,7 @@ class Footer extends Component {
             <a className='footer__icon footer__icon--linkedin' href="www.linkedin.com/in/danielleleblanccyr">
                 <FontAwesomeIcon icon={['fab', 'linkedin']}/>
             </a>
-            <a className='footer__icon footer__icon--github' href="www.linkedin.com/in/danielleleblanccyr">
+            <a className='footer__icon footer__icon--github' href="https://github.com/danielleleb">
                 <FontAwesomeIcon icon={['fab', 'github']}/>
             </a>
             <a className='footer__icon footer__icon--codepen' href="www.linkedin.com/in/danielleleblanccyr">

@@ -85,6 +85,7 @@ $color-green: #8DD6E0;
   top: -150px;
   left: -20vw;
   width: 55vw;
+  min-width: 200px;
   position: absolute;
   z-index: -5;
   transform: rotate(10deg);
@@ -111,7 +112,7 @@ $color-green: #8DD6E0;
   max-height: 100vh;
   position: relative;
   overflow: hidden;
-  background-image: url("https://vectr.com/danielleleb/a6a26QPBoF.svg?width=640&height=640&select=a6a26QPBoFpage0");
+  background-image: url("../media/background.svg");
   z-index: 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -193,8 +194,28 @@ $color-green: #8DD6E0;
   }
 }
 
-//@media screen and (max-width: 600px) {
-//  .background {
-//    width: 55vw;
-//  }
-//}
+@media screen and (max-width: 600px) {
+
+  .container {
+    width: 90vw;
+    //top: 70px;
+    height: 75vh;
+    padding-top: 0px !important;
+    margin-top: 60px;
+    position: relative;
+  }
+
+  .text {
+    width: 100%;
+    overflow-y: scroll;
+    max-height: 80vh;
+    //height: auto;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 350px){
+  .background {
+    left: -40vw;
+  }
+}
