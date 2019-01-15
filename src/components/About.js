@@ -18,12 +18,13 @@ class About extends Component {
                         {/*</div>*/}
                     {/*</div>*/}
                     {/*<div className='info'>*/}
+                    <h3>About Me</h3>
                         <p>
                             I'm Danielle.
                         </p>
                     <br/>
                         <p>
-                        As a web developer currently employed at
+                        As a web developer currently employed at&nbsp;
                             <a className='link--secondary' href='/'>
                                 <span></span>
                                 <p>
@@ -37,14 +38,14 @@ class About extends Component {
                         </p>
                     <br/>
                         <p>
-                            Check out my
-                            <a href="/" className="link--secondary">
+                            Check out my&nbsp;
+                            <a href="https://codepen.io/danielleleb/" className="link--secondary">
                                 <span></span>
                                 <p>
                                     Codepen
                                 </p>
-                            </a> and
-                            <a href="/" className="link--secondary">
+                            </a> and&nbsp;
+                            <a href="https://github.com/danielleleb" className="link--secondary">
                                 <span></span>
                                 <p>
                                     Github
@@ -53,8 +54,8 @@ class About extends Component {
                         </p>
                     <br/>
                         <p>
-                            I'm always looking to get involved in new freelance projects, so feel free to
-                            <a href="/" className="link--secondary">
+                            I'm always looking to get involved in new freelance projects, so feel free to&nbsp;
+                            <a href="mailto:danielleleb12@gmail.com" className="link--secondary">
                                 <span></span>
                                 <p>
                                 get in touch.

@@ -26,7 +26,7 @@ class Landing extends Component {
             <div className="background"></div>
             <div className={"container " + (this.state.initialLoad ? 'first-load' : '')}>
                 <div className="text">
-                    <h1>Hello</h1>
+                    <h3>Hello</h3>
                     <p>
                         I'm Danielle.
                     </p>

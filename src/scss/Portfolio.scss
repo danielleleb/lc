@@ -1,14 +1,33 @@
 @import "App";
 
 .portfolio {
+  overflow-y: scroll;
   .container {
+    padding-top: 150px;
+    overflow-y: scroll;
+    width: 100vw;
+    max-width: none;
+    //padding-top: 0;
+    top: 0;
+    //height: 100%;
+  }
+
+  .portfolio-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    //height: 1400px;
-    padding-top: 150px;
-    //margin-bottom: -300px;
+    //padding-top: 150px;
+    width: 70vw;
+    max-width: 1100px;
+    margin: 0 auto;
+    top: 75px;
+    position: relative;
+    height: 100vh;
+    //padding-top: 150px;
+    &::-webkit-scrollbar {
+      display: none !important;
+    }
   }
 }
 
@@ -33,37 +52,26 @@
   width: 60vw;
   border-radiuS: 7px;
 
-  h1 {
-    font-size: 70px;
-    font-family: 'Debonair';
+  //top: -50%;
+  //transform: translateY(50%);
+
+  h3 {
+    font-size: 50px;
+    //font-family: 'Debonair';
     font-weight: 400;
     //display: inline;
     margin-top: 0;
+    text-align: center;
+    border-bottom: 2px solid $color-dark;
+    width: fit-content;
+    margin: 0 auto;
+    letter-spacing: 2px;
+
   }
   p {
     //display: block;
     margin: 0 auto;
   }
   //box-shadow: gray 4px 4px 4px 4px;
-
-}
-
-.container {
-  width: 70vw;
-  max-width: 1100px;
-  margin: 0 auto;
-  //padding-top: 50px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  overflow-y: scroll;
-  position: relative;
-  //top: 50px;
-  height: 100vh;
-  top: 0;
-  //padding-top: 150px;
-  &::-webkit-scrollbar {
-    display: none !important;
-  }
 
 }

@@ -68,7 +68,7 @@ const projects = [
     {
         "title": "Command Line Contact Manager",
         "description": "Created as a way to experiment with and understand command line interfaces.",
-        "technologies": ["CommanderJS", "InquirerJS"],
+        "technologies": ["CommanderJS"],
         "codeLink": "https://github.com/danielleleb/contact-manager",
         // "image": spotfindingImg
     },
@@ -99,7 +99,10 @@ class Portfolio extends Component {
 
             <div className="background"></div>
             <div className="container">
+                <div className="portfolio-container">
+
                 {elements}
+                </div>
 
             </div>
         </div>
