@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4204ee62-8bc3-467a-bf88-d4125a88f9aa" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/Header.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -118,7 +118,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+          <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/package.json">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="45">
@@ -127,11 +127,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Header.scss" pinned="false" current-in-tab="false">
+          <file leaf-file-name="Header.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/scss/Header.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="149">
-                  <caret line="195" column="19" selection-start-line="195" selection-start-column="19" selection-end-line="195" selection-end-column="19" />
+                <state relative-caret-position="446">
+                  <caret line="181" column="17" selection-start-line="181" selection-start-column="17" selection-end-line="181" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
@@ -228,7 +228,6 @@
         <option value="$PROJECT_DIR$/src/components/Portfolio.js" />
         <option value="$PROJECT_DIR$/src/scss/contact.scss" />
         <option value="$PROJECT_DIR$/src/components/Contact.js" />
-        <option value="$PROJECT_DIR$/src/scss/Header.scss" />
         <option value="$PROJECT_DIR$/src/components/Landing.js" />
         <option value="$PROJECT_DIR$/src/components/About.js" />
         <option value="$PROJECT_DIR$/src/scss/App.scss" />
@@ -237,6 +236,7 @@
         <option value="$PROJECT_DIR$/src/scss/portfolio-card.scss" />
         <option value="$PROJECT_DIR$/public/CNAME" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/scss/Header.scss" />
       </list>
     </option>
   </component>
@@ -385,12 +385,12 @@
       <workItem from="1547019384770" duration="5525000" />
       <workItem from="1547292772511" duration="1871000" />
       <workItem from="1547490193599" duration="3548000" />
-      <workItem from="1547545539364" duration="9375000" />
+      <workItem from="1547545539364" duration="9727000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153488000" />
+    <option name="totallyTimeSpent" value="153840000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -679,13 +679,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/Header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="195" column="19" selection-start-line="195" selection-start-column="19" selection-end-line="195" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Landing.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -756,6 +749,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/Header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="181" column="17" selection-start-line="181" selection-start-column="17" selection-end-line="181" selection-end-column="17" />
         </state>
       </provider>
     </entry>
