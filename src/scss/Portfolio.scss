@@ -2,8 +2,11 @@
 
 .portfolio {
   overflow-y: scroll;
+  //-webkit-overflow-scrolling: touch;
+
   .container {
     padding-top: 150px;
+
     overflow-y: scroll;
     width: 100vw;
     max-width: none;
@@ -42,11 +45,15 @@
 .text {
   margin: 0 auto;
   font-size: 30px;
-  padding: 10px;
+  padding: 20px;
   position: relative;
+  -webkit-overflow-scrolling: touch;
+
   //display: flex;
   //background-color: rgba(196, 187, 175, 0.6);
-  background-color: $color-white-transparent;
+  //background-color: $color-white-transparent;
+  border: 20px solid $color-white-transparent;
+  background-color: rgba(255, 255, 255, 0.8);
   //opacity: .4;
   overflow-y: scroll;
   width: 60vw;
@@ -74,4 +81,24 @@
   }
   //box-shadow: gray 4px 4px 4px 4px;
 
+}
+
+
+@media only screen and (max-width: 450px) {
+
+  .portfolio {
+    height: 100vh;
+    .container {
+      height: 100vh;
+      width: 100vw;
+      //margin-bottom: 3vh;
+      .portfolio-container {
+        width: 90vw;
+        padding-bottom: 20px;
+        bottom: 75px;
+        //margin-bottom: 30vh;
+      }
+    }
+  }
+  
 }

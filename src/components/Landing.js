@@ -27,6 +27,7 @@ class Landing extends Component {
             <div className={"container " + (this.state.initialLoad ? 'first-load' : '')}>
                 <div className="text">
                     <h3>Hello</h3>
+                    <br/>
                     <p>
                         I'm Danielle.
                     </p>

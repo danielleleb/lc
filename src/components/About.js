@@ -19,6 +19,7 @@ class About extends Component {
                     {/*</div>*/}
                     {/*<div className='info'>*/}
                     <h3>About Me</h3>
+                    <br/>
                         <p>
                             I'm Danielle.
                         </p>
@@ -30,7 +31,7 @@ class About extends Component {
                                 <p>
                                     creating-web
                                 </p>
-                            </a> in Barcelona, I get to spend my days working on interesting projects while honing my HTML/Sass/PHP/Javascript/Pimcore skills.
+                            </a> in Barcelona, I get to spend my days working on interesting projects while honing my (HTML-Sass-PHP-Javascript-Pimcore) skills.
                         </p>
                     <br/>
                         <p>

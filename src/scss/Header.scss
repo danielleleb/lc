@@ -125,6 +125,11 @@ html {
   *, *:before, *:after {
     box-sizing: inherit;
   }
+
+
+
+
+
 @media screen and (max-width: 500px) {
   .header {
     &__desktop {
@@ -188,6 +193,7 @@ html {
         height: 40px;
         left: 10px;
         position: relative;
+        z-index: 19;
       }
       &--close {
         display: block;

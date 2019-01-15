@@ -197,24 +197,26 @@ $color-green: #8DD6E0;
 @media screen and (max-width: 600px) {
 
   .container {
-    width: 90vw;
+    width: 100vw;
     //top: 70px;
-    height: 75vh;
+    //height: 75vh;
     padding-top: 0px !important;
-    margin-top: 60px;
+    //margin-top: 60px;
     position: relative;
+
+    .text {
+      width: 95vw;
+      overflow-y: scroll;
+      max-height: 80vh;
+      //overflow-wrap: break-spaces;
+      //height: auto;
+      font-size: 30px;
+    }
   }
 
-  .text {
-    width: 100%;
-    overflow-y: scroll;
-    max-height: 80vh;
-    //height: auto;
-    font-size: 30px;
-  }
 }
 
-@media screen and (max-width: 350px){
+@media screen and (max-width: 450px){
   .background {
     left: -40vw;
   }
