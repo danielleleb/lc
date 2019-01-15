@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4204ee62-8bc3-467a-bf88-d4125a88f9aa" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/public/CNAME" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Landing.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Landing.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/Header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/Portfolio.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/Portfolio.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/about.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/portfolio-card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/portfolio-card.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -117,11 +109,20 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="CNAME" pinned="false" current-in-tab="true">
+          <file leaf-file-name="CNAME" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/public/CNAME">
               <provider selected="true" editor-type-id="text-editor">
                 <state>
                   <caret column="18" selection-start-column="18" selection-end-column="18" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/package.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="45">
+                  <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
                 </state>
               </provider>
             </entry>
@@ -209,7 +210,6 @@
         <option value="$PROJECT_DIR$/src/scss/global.scss" />
         <option value="$PROJECT_DIR$/src/components/Home.js" />
         <option value="$PROJECT_DIR$/config/webpack.config.prod.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/components/Link.js" />
         <option value="$PROJECT_DIR$/src/scss/link.scss" />
         <option value="$PROJECT_DIR$/src/components/TweetQuote.js" />
@@ -236,6 +236,7 @@
         <option value="$PROJECT_DIR$/src/scss/Portfolio.scss" />
         <option value="$PROJECT_DIR$/src/scss/portfolio-card.scss" />
         <option value="$PROJECT_DIR$/public/CNAME" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -384,12 +385,12 @@
       <workItem from="1547019384770" duration="5525000" />
       <workItem from="1547292772511" duration="1871000" />
       <workItem from="1547490193599" duration="3548000" />
-      <workItem from="1547545539364" duration="9212000" />
+      <workItem from="1547545539364" duration="9375000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153325000" />
+    <option name="totallyTimeSpent" value="153488000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -571,13 +572,6 @@
     <entry file="file://$PROJECT_DIR$/src/media/spotfinding.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="62" column="1" selection-start-line="62" selection-start-column="1" selection-end-line="63" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/link.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="750">
@@ -755,6 +749,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
         </state>
       </provider>
     </entry>

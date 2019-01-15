@@ -1,7 +1,7 @@
 {
   "name": "dlc",
   "version": "0.1.0",
-  "homepage": "https://danielleleb.github.io/lc/",
+  "homepage": "https://www.daniellelc.com/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.4",
