@@ -132,6 +132,11 @@ html {
 
 @media screen and (max-width: 500px) {
   .header {
+    .link {
+      &:before {
+        display: none;
+      }
+    }
     &__desktop {
       width: 100%;
       transition: all ease 1s;
@@ -172,9 +177,14 @@ html {
           right: 0;
           left: 0;
           bottom: 0;
+          font-size: 20px;
           float: none;
           .link {
-            top: 50px;
+            //top: 50px;
+          }
+
+          .header__item {
+            top: 150px;
           }
         }
 

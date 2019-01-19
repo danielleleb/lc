@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4204ee62-8bc3-467a-bf88-d4125a88f9aa" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/scss/Portfolio.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/Portfolio.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/Header.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,7 +19,7 @@
           <file leaf-file-name="PortfolioCard.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/PortfolioCard.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="186">
+                <state relative-caret-position="540">
                   <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
                   <folding>
                     <element signature="e#0#41#0" expanded="true" />
@@ -30,7 +31,7 @@
           <file leaf-file-name="Portfolio.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/Portfolio.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="205">
+                <state relative-caret-position="930">
                   <caret line="70" column="38" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
                   <folding>
                     <element signature="e#0#41#0" expanded="true" />
@@ -42,7 +43,7 @@
           <file leaf-file-name="About.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/About.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="205">
+                <state relative-caret-position="465">
                   <caret line="33" column="152" selection-start-line="33" selection-start-column="152" selection-end-line="33" selection-end-column="152" />
                 </state>
               </provider>
@@ -69,7 +70,7 @@
           <file leaf-file-name="Header.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/Header.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="748">
+                <state relative-caret-position="1095">
                   <caret line="80" column="20" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
                   <folding>
                     <element signature="e#0#41#0" expanded="true" />
@@ -100,7 +101,7 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="about.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="about.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/scss/about.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="285">
@@ -109,11 +110,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Header.scss" pinned="false" current-in-tab="false">
+          <file leaf-file-name="Header.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/scss/Header.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="446">
-                  <caret line="181" column="17" selection-start-line="181" selection-start-column="17" selection-end-line="181" selection-end-column="17" />
+                <state relative-caret-position="616">
+                  <caret line="186" column="18" selection-start-line="186" selection-start-column="18" selection-end-line="186" selection-end-column="18" />
                 </state>
               </provider>
             </entry>
@@ -121,7 +122,7 @@
           <file leaf-file-name="contact.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/scss/contact.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="448">
+                <state relative-caret-position="735">
                   <caret line="49" selection-start-line="49" selection-end-line="49" />
                 </state>
               </provider>
@@ -130,7 +131,7 @@
           <file leaf-file-name="portfolio-card.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/scss/portfolio-card.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="534">
+                <state relative-caret-position="2805">
                   <caret line="187" column="20" selection-start-line="187" selection-start-column="20" selection-end-line="187" selection-end-column="20" />
                 </state>
               </provider>
@@ -139,7 +140,7 @@
           <file leaf-file-name="Footer.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/scss/Footer.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-587">
+                <state relative-caret-position="195">
                   <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
                 </state>
               </provider>
@@ -207,12 +208,12 @@
         <option value="$PROJECT_DIR$/src/scss/portfolio-card.scss" />
         <option value="$PROJECT_DIR$/public/CNAME" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/scss/Header.scss" />
         <option value="$PROJECT_DIR$/build/static/404.html" />
         <option value="$PROJECT_DIR$/build/404.html" />
         <option value="$PROJECT_DIR$/build/index.html" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/scss/Portfolio.scss" />
+        <option value="$PROJECT_DIR$/src/scss/Header.scss" />
       </list>
     </option>
   </component>
@@ -236,15 +237,15 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="947" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -294,7 +295,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -362,12 +362,13 @@
       <workItem from="1547019384770" duration="5525000" />
       <workItem from="1547292772511" duration="1871000" />
       <workItem from="1547490193599" duration="3548000" />
-      <workItem from="1547545539364" duration="10651000" />
+      <workItem from="1547545539364" duration="10868000" />
+      <workItem from="1547910760876" duration="491000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154764000" />
+    <option name="totallyTimeSpent" value="155472000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -380,10 +381,9 @@
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17826618" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18009768" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -394,28 +394,29 @@
       <window_info active="true" anchor="bottom" id="Command Line Tools Console" order="7" visible="true" weight="0.046153847" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16361417" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info active="true" anchor="bottom" id="Command Line Tools Console" order="9" visible="true" weight="0.046153847" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Favorites" order="3" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -576,7 +577,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/PortfolioCard.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
+        <state relative-caret-position="540">
           <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
@@ -588,9 +589,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="7" selection-start-column="7" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -603,7 +601,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Portfolio.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
+        <state relative-caret-position="930">
           <caret line="70" column="38" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
@@ -627,7 +625,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/Footer.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-587">
+        <state relative-caret-position="195">
           <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
         </state>
       </provider>
@@ -641,7 +639,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Header.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
+        <state relative-caret-position="1095">
           <caret line="80" column="20" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
@@ -651,7 +649,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/About.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
+        <state relative-caret-position="465">
           <caret line="33" column="152" selection-start-line="33" selection-start-column="152" selection-end-line="33" selection-end-column="152" />
         </state>
       </provider>
@@ -698,23 +696,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/Header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="181" column="17" selection-start-line="181" selection-start-column="17" selection-end-line="181" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/portfolio-card.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
+        <state relative-caret-position="2805">
           <caret line="187" column="20" selection-start-line="187" selection-start-column="20" selection-end-line="187" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/contact.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
+        <state relative-caret-position="735">
           <caret line="49" selection-start-line="49" selection-end-line="49" />
         </state>
       </provider>
@@ -730,6 +721,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="50" column="19" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/Header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="186" column="18" selection-start-line="186" selection-start-column="18" selection-end-line="186" selection-end-column="18" />
         </state>
       </provider>
     </entry>
