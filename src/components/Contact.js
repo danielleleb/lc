@@ -22,7 +22,7 @@ class Contact extends Component {
                     Wanna chat? <br/>
                 <br/>
                     Connect with me on&nbsp;
-                    <a href="www.linkedin.com/in/danielleleblanccyr" className={"link--secondary"}>
+                    <a href="https://www.linkedin.com/in/danielleleblanccyr" className={"link--secondary"}>
                         <span></span>
                         <p> LinkedIn </p>
                     </a>
