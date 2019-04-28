@@ -13,13 +13,13 @@ class Footer extends Component {
     return (
       <nav className="footer">
         <div className="footer__icons">
-            <a className='footer__icon footer__icon--linkedin' href="https://www.linkedin.com/in/danielleleblanccyr">
+            <a className='footer__icon footer__icon--linkedin' href="https://www.linkedin.com/in/danielleleblanccyr/">
                 <FontAwesomeIcon icon={['fab', 'linkedin']}/>
             </a>
             <a className='footer__icon footer__icon--github' href="https://github.com/danielleleb">
                 <FontAwesomeIcon icon={['fab', 'github']}/>
             </a>
-            <a className='footer__icon footer__icon--codepen' href="https://codepen.io/danielleleb/">
+            <a className='footer__icon footer__icon--codepen' href="https://codepen.io/danielleleb">
                 <FontAwesomeIcon icon={['fab', 'codepen']}/>
             </a>
         </div>
