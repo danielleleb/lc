@@ -15,8 +15,8 @@ const projects = [
         "title": "SpotFinding",
         "description": "Created as an Ironhack Web Development final project, SpotFinding is like Airbnb for sports equipment.",
         "technologies": ["Angular", "MongoDB", "Express"],
-        "codeLink": "https://github.com/",
-        "liveLink": "https://github.com/",
+        "codeLink": "https://github.com/rodrigodaoud/project_web",
+        "liveLink": "http://spotfinding.herokuapp.com/",
         "image": spotfindingImg
     },
 
