@@ -32,9 +32,7 @@ class Header extends Component {
       }
 
       const handleCloseMenuClick = () => {
-          console.log('click', this.state.burgerOpen)
           if (this.state.burgerOpen === true) {
-              console.log('close')
               this.setState({
                   burgerOpen: false
               })

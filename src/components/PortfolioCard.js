@@ -40,13 +40,6 @@ class PortfolioCard extends Component {
             backgroundImage: 'url(' + this.props.image + ')'
         };
 
-        // const handleHover = () => {
-        //     this.setState({
-        //         hovered: true
-        //     });
-        //     console.log('hover')
-        // }
-
         return (
             <div className={"card " + (this.props.image ? '' : 'card--no-image') }>
 
