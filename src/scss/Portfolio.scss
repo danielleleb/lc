@@ -43,10 +43,10 @@
 
 
 .text {
-  margin: 0 auto;
+  margin: auto;
   font-size: 30px;
   padding: 20px;
-  position: relative;
+  position: static;
   -webkit-overflow-scrolling: touch;
   max-height: 95vh;
   //display: flex;
@@ -58,6 +58,10 @@
   overflow-y: scroll;
   width: 60vw;
   border-radiuS: 7px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 
   //top: -50%;
   //transform: translateY(50%);
@@ -70,7 +74,7 @@
     margin-top: 0;
     text-align: center;
     border-bottom: 2px solid $color-dark;
-    width: fit-content;
+    width: max-content;
     margin: 0 auto;
     letter-spacing: 2px;
 

@@ -9,15 +9,6 @@ class About extends Component {
             <div className="background"></div>
             <div className="container">
                 <div className="text">
-                    {/*<div className="left">*/}
-                        {/*<div className="title">*/}
-                            {/*About Me*/}
-                        {/*</div>*/}
-                        {/*<div className="about__image">*/}
-
-                        {/*</div>*/}
-                    {/*</div>*/}
-                    {/*<div className='info'>*/}
                     <h3>About Me</h3>
                     <br/>
                         <p>
@@ -25,13 +16,17 @@ class About extends Component {
                         </p>
                     <br/>
                         <p>
-                        As a web developer currently employed at&nbsp;
+                            I'm currently working as an intern with Mozilla's Security Engineering team. For the next few months, I'll be working on implementing a new certificate viewer in Firefox. At the moment, I'm focusing on Web Components, vanilla Javascript, security and React. I'm also taking the opportunity to learn about encryption and C++.
+                        </p>
+                        <br/>
+                        <p>
+                        Previously, I was a web developer at&nbsp;
                             <a className='link--secondary' href='/'>
                                 <span></span>
                                 <p>
                                     creating-web
                                 </p>
-                            </a> in Barcelona, I get to spend my days working on interesting projects while honing my (HTML-Sass-PHP-Javascript-Pimcore) skills.
+                            </a> in Barcelona, where I spent my days working on interesting projects while honing my (HTML-Sass-PHP-Javascript-Pimcore) skills.
                         </p>
                     <br/>
                         <p>

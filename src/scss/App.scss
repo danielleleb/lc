@@ -9,6 +9,9 @@ $color-yellow: rgb(165, 221, 228);
 $color-green: #8DD6E0;
 
 
+a {
+  color: black;
+}
 .fade-appear {
   .background {
     animation: appear 2s;
@@ -93,7 +96,7 @@ $color-green: #8DD6E0;
 
 
 .text {
-  position: relative;
+  position: absolute;
 }
 
 @media only screen and (max-width: 776px) {
