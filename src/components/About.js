@@ -16,7 +16,7 @@ class About extends Component {
                         </p>
                     <br/>
                         <p>
-                            I'm currently working as an intern with Mozilla's Security Engineering team. For the next few months, I'll be working on implementing a new certificate viewer in Firefox. At the moment, I'm focusing on Web Components, vanilla Javascript, security and React. I'm also taking the opportunity to learn about encryption and C++.
+                            I'm currently working as an intern with Mozilla's Security Engineering team. Over the next few months, I'll be implementing a new certificate viewer in Firefox. At the moment, I'm focusing on Web Components, vanilla Javascript, security and React. I'm also taking the opportunity to learn about encryption and C++.
                         </p>
                         <br/>
                         <p>
@@ -26,7 +26,7 @@ class About extends Component {
                                 <p>
                                     creating-web
                                 </p>
-                            </a> in Barcelona, where I spent my days working on interesting projects while honing my (HTML-Sass-PHP-Javascript-Pimcore) skills.
+                            </a> in Barcelona, where I spent my days working on interesting projects while honing my (React-Redux-Immutable.js-PHP-Javascript-Pimcore) skills.
                         </p>
                     <br/>
                         <p>
