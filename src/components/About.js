@@ -21,7 +21,7 @@ class About extends Component {
                         <br/>
                         <p>
                         Previously, I was a web developer at&nbsp;
-                            <a className='link--secondary' href='/'>
+                            <a className='link--secondary' target="_blank" href='https://www.creating-web.com/de/internet-agentur-referenzen'>
                                 <span></span>
                                 <p>
                                     creating-web
@@ -35,13 +35,13 @@ class About extends Component {
                     <br/>
                         <p>
                             Check out my&nbsp;
-                            <a href="https://codepen.io/danielleleb/" className="link--secondary">
+                            <a href="https://codepen.io/danielleleb/" target="_blank" className="link--secondary">
                                 <span></span>
                                 <p>
                                     Codepen
                                 </p>
                             </a> and&nbsp;
-                            <a href="https://github.com/danielleleb" className="link--secondary">
+                            <a href="https://github.com/danielleleb" target="_blank" className="link--secondary">
                                 <span></span>
                                 <p>
                                     Github
@@ -51,7 +51,7 @@ class About extends Component {
                     <br/>
                         <p>
                             I'm always looking to get involved in new freelance projects, so feel free to&nbsp;
-                            <a href="mailto:danielleleb12@gmail.com" className="link--secondary">
+                            <a href="mailto:danielleleb12@gmail.com" target="_blank" className="link--secondary">
                                 <span></span>
                                 <p>
                                 get in touch.

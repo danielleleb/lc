@@ -68,7 +68,7 @@ class PortfolioCard extends Component {
                                 </a> : <span></span> }
 
                             {this.props.liveLink ?
-                                <a href={this.props.liveLink} className="card__link card__link--text">
+                                <a href={this.props.liveLink} target="_blank" className="card__link card__link--text">
                                     <span className="card__link--background"></span>
                                     <p>
                                         See it live
