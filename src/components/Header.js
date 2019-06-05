@@ -43,7 +43,7 @@ class Header extends Component {
         <div>
           <nav className="header">
               <div className="header__burger">
-                  <img onClick={() => handleBurgerClick()} src={burger} alt=""/>
+                  <img onClick={() => handleBurgerClick()} src={burger} alt="Danielle Leblanc Cyr"/>
               </div>
               <div className={"header__desktop " + (this.state.burgerOpen === true ? 'header__desktop--open' : '')}>
                   <div className="header__burger--close">
