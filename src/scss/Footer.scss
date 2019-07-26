@@ -1,19 +1,12 @@
 @import "App";
 .footer {
-    //height: 10vh;
-    //border: 1px solid black;
     display: flex;
     width: 100%;
     justify-content: space-between;
     padding: 0 5px;
     position: absolute;
-    //bottom: -100%;
-    //top: 90vh;
     bottom: 0;
-    //line-height: 10vh;
     z-index: 10;
-    //background-color: rgba(106, 107, 131, 0.29);
-    //position: relative;
     
     &__icons {
         display: flex;

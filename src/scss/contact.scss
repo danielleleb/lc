@@ -1,41 +1,9 @@
 @import "App";
 .contact {
-  //background-color: red;
   .title {
     font-weight: 400;
     font-size: 50px;
     font-family: Debonair;
-  }
-
-  &__link {
-    //display: inline-block;
-    //position: relative;
-    //color: black;
-    //border-bottom: 1px solid $color-dark;
-    //margin: 0 7px;
-    //
-    //span {
-    //  background-color: $color-dark;
-    //  width: 0;
-    //  height: 40px;
-    //  display: block;
-    //  position: absolute;
-    //  bottom: 0;
-    //  transition: width .5s linear;
-    //}
-    //p {
-    //  position: relative;
-    //  display: inline-block;
-    //  //border-bottom: 1px solid $color-dark;
-    //
-    //}
-    //
-    //&:hover, &:visited {
-    //  color: black;
-    //  span {
-    //    width: 100%;
-    //  }
-    //}
   }
 }
 
@@ -46,7 +14,6 @@
     position: relative;
     color: black;
     border-bottom: 1px solid $color-dark;
-    //margin: 0 7px;
 
     span {
       background-color: $color-dark;
