@@ -16,23 +16,31 @@ class About extends Component {
                         </p>
                     <br/>
                         <p>
-                            I'm currently working as an intern with Mozilla's Security Engineering team. Over the next few months, I'll be implementing a new certificate viewer in Firefox. At the moment, I'm focusing on Web Components, vanilla Javascript, security and React. I'm also taking the opportunity to learn about encryption and C++.
+                            I’m currently working as a software developer, as part of a team distributed across 6 different timezones. At the moment, I’m working primarily with React and Node.js, focusing on creating internal company tools and automations.
                         </p>
                         <br/>
                         <p>
-                        Previously, I was a web developer at&nbsp;
-                            <a className='link--secondary' target="_blank" href='https://www.creating-web.com/de/internet-agentur-referenzen'>
+                            In addition to my full time job, I’m also an active Mozilla Firefox contributor. More specifically, I’ve been working to add additional features to Firefox’s 
+                            <a className='link--secondary' target="_blank" href='https://www.ghacks.net/2019/08/27/firefox-71-has-a-new-certificates-viewer/'>
                                 <span></span>
                                 <p>
-                                    creating-web
+                                new certificate view
                                 </p>
-                            </a> in Barcelona, where I spent my days working on interesting projects while honing my (React-Redux-Immutable.js-PHP-Javascript-Pimcore) skills.
+                            </a> 
+                            . I originally got involved with this project as an intern with Mozilla's Security Engineering team. I’m proud to have worked on this project from the beginning until now - and look forward to adding new features in the future.
+                            <br/>
+                            <br/>
+                            Previously, I was a web developer at&nbsp;
+                            <a className='link--secondary' target="_blank" href='https://www.dgtls.com/en'>
+                                <span></span>
+                                <p>
+                                    DGTLS 
+                                </p>
+                            </a> 
+                            &nbsp; in Barcelona, where I spent my days working on interesting projects while honing my (React-Redux-PHP-Javascript-Pimcore) skills.
                         </p>
                     <br/>
-                        <p>
-                            I also have experience with React, Angular2, Express and Node.
-                        </p>
-                    <br/>
+                    
                         <p>
                             Check out my&nbsp;
                             <a href="https://codepen.io/danielleleb/" target="_blank" className="link--secondary">

@@ -32,8 +32,7 @@ class Landing extends Component {
                         I'm Danielle.
                     </p>
                     <p>
-                      I'm a Canadian web developer currently working in Barcelona.
-                    </p>
+                    I'm a Canadian software developer, currently focusing on React and Node while enjoying the freedom (and navigating the tribulations) of remote work.                    </p>
                 </div>
             </div>
         </div>
